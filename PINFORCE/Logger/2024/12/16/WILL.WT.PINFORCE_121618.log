@@ -1,0 +1,19 @@
+18:36:39.116 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+18:37:21.490 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+18:38:08.815 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+18:40:55.554 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+18:41:12.860 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+18:41:23.373 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+18:52:08.550 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+18:52:22.002 [E] CfgWorkViewModel(Refresh)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.Config.CfgWorkViewModel.Refresh(Boolean isSave) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\Config\CfgWorkViewModel.cs:줄 64
+18:52:23.727 [E] CfgWorkViewModel(Refresh)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.Config.CfgWorkViewModel.Refresh(Boolean isSave) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\Config\CfgWorkViewModel.cs:줄 64
+18:52:25.637 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+18:52:54.491 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+18:53:09.455 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+18:53:24.652 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+18:53:31.400 [E] CfgWorkViewModel(Refresh)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.Config.CfgWorkViewModel.Refresh(Boolean isSave) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\Config\CfgWorkViewModel.cs:줄 64
+18:53:39.135 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+18:54:23.994 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================

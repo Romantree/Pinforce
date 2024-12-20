@@ -1,0 +1,44 @@
+15:12:32.142 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:13:29.430 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+15:13:31.577 [E] InitProc(ExcuteProcess)[17] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:13:33.213 [E] InitProc(ExcuteProcess)[17] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:15:03.356 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+15:15:07.051 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:15:40.155 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+15:15:42.820 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:15:48.135 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:15:49.594 [E] InitProc(ExcuteProcess)[17] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:15:50.766 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+15:15:53.518 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:15:54.518 [E] InitProc(ExcuteProcess)[17] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:15:55.558 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+15:15:59.271 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+15:16:10.262 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:16:16.431 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:16:17.940 [E] InitProc(ExcuteProcess)[21] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:16:29.994 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:16:45.441 [E] InitProc(ExcuteProcess)[21] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:17:57.895 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+15:18:00.577 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:18:01.569 [E] InitProc(ExcuteProcess)[18] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:18:08.353 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+15:18:21.389 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+15:18:29.457 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:18:41.113 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+15:18:47.153 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:18:48.829 [E] InitProc(ExcuteProcess)[21] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:18:55.960 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:19:14.850 [E] InitProc(ExcuteProcess)[21] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:19:17.710 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:19:20.909 [E] InitProc(ExcuteProcess)[21] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:19:27.505 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:19:36.668 [E] InitProc(ExcuteProcess)[21] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:19:39.086 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:19:40.582 [E] InitProc(ExcuteProcess)[21] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:20:14.091 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:20:20.925 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:20:22.620 [E] InitProc(ExcuteProcess)[21] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+15:23:12.934 [E] SystemManager(System_OnInterlockMsgEvent)[1] : User 데이터 저장 되었습니다.
+15:50:30.117 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:50:45.573 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+15:50:49.950 [E] InitProc(ExcuteProcess)[21] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]

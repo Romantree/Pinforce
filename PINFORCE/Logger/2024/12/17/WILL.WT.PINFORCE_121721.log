@@ -1,0 +1,27 @@
+21:19:14.864 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+21:19:33.274 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+21:32:19.538 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+21:32:52.254 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+21:40:39.884 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+21:43:50.184 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+21:44:05.099 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+21:47:00.954 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+21:47:12.053 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+21:51:24.711 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+21:51:39.705 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+21:52:01.023 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+21:52:14.199 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+21:52:42.847 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+21:55:15.737 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+21:55:37.352 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+21:55:48.381 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 설정 저장 하시겠습니까?
+21:55:49.565 [E] SystemManager(System_OnInterlockMsgEvent)[1] : User 데이터 저장 되었습니다.
+21:57:38.861 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 설정 저장 하시겠습니까?
+21:57:41.337 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 설정 저장 하시겠습니까?
+21:57:42.210 [E] SystemManager(System_OnInterlockMsgEvent)[1] : User 데이터 저장 되었습니다.
+21:58:06.862 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 설정 저장 하시겠습니까?
+21:58:59.716 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+21:59:37.573 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 설정 저장 하시겠습니까?
+21:59:39.105 [E] SystemManager(System_OnInterlockMsgEvent)[1] : User 데이터 저장 되었습니다.
+21:59:47.209 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 설정 저장 하시겠습니까?
+21:59:48.195 [E] SystemManager(System_OnInterlockMsgEvent)[1] : User 데이터 저장 되었습니다.

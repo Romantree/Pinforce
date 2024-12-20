@@ -1,0 +1,82 @@
+15:50:53.742 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:51:06.066 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+15:51:08.089 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+15:51:19.165 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+15:53:05.920 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:53:15.153 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:53:20.901 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+15:53:24.609 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 정지 후 재시도 해주세요.
+15:53:35.455 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+15:55:52.708 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:55:58.753 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+15:56:08.775 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:08.879 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:08.957 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:09.037 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:09.113 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:09.191 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:09.270 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:09.347 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:09.424 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:09.501 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:09.579 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:09.657 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:09.735 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:09.813 [E] SafertyProc(MOT_SERVO)[14] : 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_SERVO_OFF_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.Saferty.SafertyProc.MOT_SERVO() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Saferty\SafertyProc.cs:줄 36
+15:56:54.020 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+15:56:57.080 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:57:06.010 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+15:57:57.041 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+15:58:44.524 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:58:51.388 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+15:59:05.885 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+15:59:14.052 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:59:19.631 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+15:59:21.433 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+15:59:34.812 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+15:59:38.024 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+15:59:45.133 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+15:59:46.781 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+15:59:53.740 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================

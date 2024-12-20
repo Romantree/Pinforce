@@ -1,0 +1,6 @@
+19:12:56.183 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+19:13:22.882 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+19:14:41.152 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+19:35:58.597 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+19:36:09.752 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+19:39:34.292 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================

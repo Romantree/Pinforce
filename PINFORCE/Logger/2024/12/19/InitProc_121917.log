@@ -1,0 +1,4 @@
+17:47:41.415 [I] InitProc(SetMsg)[17] : Start
+17:47:41.490 [I] InitProc(SetMsg)[17] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+17:51:47.847 [I] InitProc(SetMsg)[17] : Start
+17:51:47.936 [I] InitProc(SetMsg)[17] : End

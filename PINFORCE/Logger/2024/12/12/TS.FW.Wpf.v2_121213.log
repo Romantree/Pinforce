@@ -1,0 +1,7 @@
+13:01:05.998 [E] ValueBtn(OnMouseDown)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+13:01:06.678 [E] ValueBtn(OnMouseDown)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+13:01:09.792 [E] ValueBtn(OnMouseDown)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+13:01:16.770 [E] ProgramHelper(TrCollector_DoWork)[14] : 메모리 513.811 MB

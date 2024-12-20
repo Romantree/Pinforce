@@ -1,0 +1,28 @@
+17:40:15.886 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:40:23.707 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 47
+17:41:07.009 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+17:53:41.907 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:53:49.618 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 50
+17:53:56.267 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+17:56:44.012 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:56:51.408 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 50
+17:57:02.627 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+17:57:49.568 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:57:52.915 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 50
+17:57:56.556 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+17:57:57.878 [E] WorkProcess(ExcuteProcess)[17] : 해당 Step이 존재하지 않습니다. [AXIS_Z_DOWN_ENTER]
+17:58:02.551 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+17:58:39.974 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:58:43.157 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 50
+17:58:45.714 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+17:59:20.655 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================

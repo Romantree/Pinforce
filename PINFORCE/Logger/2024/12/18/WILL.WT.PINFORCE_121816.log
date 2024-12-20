@@ -1,0 +1,129 @@
+16:02:32.238 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:02:38.760 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:03:14.767 [E] ProcStep`1(ExcuteProcess)[21] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.ArgumentException: 요청한 값 'MOTION_MOVE_TIMEOUT_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.ToAlarm(eAxis axis) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 270
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.MotTimeout(eAxis axis, Double curPos, MotMove data) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 258
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.MotPoliing(WorkItem item, Double time, eAxis[] list) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 211
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.MOT_PROCESS_POS_MOVE_POLLING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 134
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+요청한 값 'MOTION_MOVE_TIMEOUT_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_MOVE_TIMEOUT_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.ToAlarm(eAxis axis) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 270
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.MotTimeout(eAxis axis, Double curPos, MotMove data) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 258
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.MotPoliing(WorkItem item, Double time, eAxis[] list) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 211
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.MOT_PROCESS_POS_MOVE_POLLING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 134
+16:03:31.127 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:03:56.403 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:04:00.847 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:04:07.719 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:04:17.963 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:04:22.478 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:04:28.302 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:04:35.163 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:04:48.202 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:04:52.978 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:05:01.798 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:07:37.794 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:07:46.462 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:07:57.158 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:10:29.852 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:10:42.665 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:11:00.518 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:11:47.170 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:11:52.934 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:11:59.591 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:12:05.017 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:13:26.044 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:13:32.039 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:13:33.848 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 정지 후 재시도 해주세요.
+16:13:42.333 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:15:18.719 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:15:25.213 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:15:36.448 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:15:42.417 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:15:48.208 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:15:53.983 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:17:17.583 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:17:22.403 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:17:33.880 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:17:54.867 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:18:02.709 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+16:18:08.704 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:18:13.529 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:20:00.480 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:20:12.241 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:20:52.689 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:20:57.648 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:21:02.492 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:21:09.523 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:21:49.901 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:21:54.895 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:22:06.524 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:22:33.281 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:23:03.855 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:23:07.869 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:23:14.220 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:23:23.393 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:24:22.341 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:24:24.015 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:24:33.675 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:24:38.707 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:24:42.056 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:25:24.969 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:25:31.088 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:25:38.008 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:34:14.464 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:34:27.310 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:35:01.786 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:35:07.315 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:35:15.315 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:35:45.450 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:35:49.886 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:35:54.981 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:36:33.316 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:36:38.734 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:36:48.317 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:37:36.482 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:37:42.394 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:37:51.474 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:38:33.754 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:38:38.417 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+16:38:44.085 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:39:00.721 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:39:11.115 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+16:39:11.136 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+16:39:13.804 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+16:39:13.805 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+16:39:19.870 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================

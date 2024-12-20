@@ -1,0 +1,15 @@
+{
+  "$type": "WILL.WT.PINFORCE.Models.Recipe.MainRecipeModel, WILL.WT.PINFORCE",
+  "Start": 25,
+  "Step": 15,
+  "End": 100,
+  "ContactTime": 3,
+  "RepeatCount": 3,
+  "RepeatMethod": 0,
+  "ReleaseUse": false,
+  "ReleaseTime": 0,
+  "ReleaseDist": 0,
+  "Type": 0,
+  "No": 0,
+  "Name": "first"
+}

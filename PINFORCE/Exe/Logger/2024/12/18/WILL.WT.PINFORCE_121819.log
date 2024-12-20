@@ -1,0 +1,12 @@
+19:10:14.289 [E] MainView(MainView_Loaded)[1] : 'WILL.WT.PINFORCE.AP'의 형식 이니셜라이저에서 예외를 Throw했습니다. => System.TypeInitializationException: 'WILL.WT.PINFORCE.AP'의 형식 이니셜라이저에서 예외를 Throw했습니다. ---> System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Process.Work.MotionSequence..ctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionSequence.cs:줄 51
+   위치: WILL.WT.PINFORCE.Managers.ProcManager..ctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\ProcManager.cs:줄 21
+   위치: WILL.WT.PINFORCE.AP..cctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 33
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: WILL.WT.PINFORCE.AP.get_LOG_FILE()
+   위치: WILL.WT.PINFORCE.ViewModels.MainViewModel..ctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\MainViewModel.cs:줄 29
+   위치: WILL.WT.PINFORCE.Views.MainView.MainView_Loaded(Object sender, RoutedEventArgs e) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\MainView.xaml.cs:줄 23
+개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Process.Work.MotionSequence..ctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionSequence.cs:줄 51
+   위치: WILL.WT.PINFORCE.Managers.ProcManager..ctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\ProcManager.cs:줄 21
+   위치: WILL.WT.PINFORCE.AP..cctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 33

@@ -1,0 +1,35 @@
+17:00:03.231 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext()
+17:01:52.505 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext()
+17:02:01.214 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext()
+17:02:35.904 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+17:03:57.732 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+17:04:25.754 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+17:04:34.640 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>b__20_0() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 105
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 102
+17:04:58.470 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+17:04:59.883 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+17:05:06.376 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 98
+17:05:10.091 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+17:05:31.085 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+17:05:37.119 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 98
+17:05:41.868 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+17:05:48.704 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+17:05:56.701 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 98
+17:06:07.186 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+17:06:21.607 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+17:06:28.338 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 98
+17:06:32.496 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+17:06:41.809 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+17:13:11.330 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+17:45:24.477 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+17:49:10.954 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================

@@ -1,0 +1,37 @@
+10:49:27.915 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+10:49:43.196 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 49
+10:49:45.097 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+10:49:46.464 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+10:50:15.320 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+10:50:19.545 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+10:50:22.579 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 53
+10:50:23.943 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+10:50:25.166 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+10:50:31.804 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+10:50:38.239 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+10:50:41.234 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 53
+10:50:43.204 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+10:50:44.057 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+10:50:47.271 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+10:51:05.103 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+10:51:08.187 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 53
+10:51:09.418 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+10:51:11.237 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+10:51:13.721 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+10:56:01.515 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+10:56:04.247 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 53
+10:56:09.623 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+10:56:21.826 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피 신규생성 되었습니다.
+10:58:00.220 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피 저장 되었습니다.
+10:58:38.101 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 설정 저장 하시겠습니까?
+10:58:39.528 [E] SystemManager(System_OnInterlockMsgEvent)[1] : User 데이터 저장 되었습니다.

@@ -1,0 +1,17 @@
+15:03:01.903 [I] WorkProcess(SetMsg)[20] : Error : VERTICAL_Z_DOWN_ENTER
+15:20:34.010 [I] WorkProcess(SetMsg)[20] : Error : VERTICAL_Z_DOWN_ENTER
+15:27:42.765 [I] WorkProcess(SetMsg)[20] : Error : VERTICAL_Z_DOWN_ENTER
+15:29:01.706 [I] WorkProcess(SetProcMsg)[20] : AXIS Z DOWN Enter
+15:29:06.783 [I] WorkProcess(SetMsg)[20] : Error : VERTICAL_Z_DOWN_ENTER
+15:30:26.911 [I] WorkProcess(SetProcMsg)[20] : AXIS Z DOWN Enter
+15:30:26.948 [I] WorkProcess(SetProcMsg)[20] : AXIS ZDOWN
+15:30:26.949 [I] WorkProcess(SetMsg)[20] : Delay Time 2000 msec
+15:30:29.011 [I] WorkProcess(SetMsg)[20] : Not_Found_Step : VERTICAL_Z_UP_ENTER
+15:30:49.792 [I] WorkProcess(SetProcMsg)[19] : AXIS Z DOWN Enter
+15:30:49.829 [I] WorkProcess(SetProcMsg)[19] : AXIS ZDOWN
+15:30:49.831 [I] WorkProcess(SetMsg)[19] : Delay Time 2000 msec
+15:30:51.892 [I] WorkProcess(SetMsg)[19] : Not_Found_Step : VERTICAL_Z_UP_ENTER
+15:39:53.023 [I] WorkProcess(SetProcMsg)[20] : AXIS Z DOWN Enter
+15:39:53.077 [I] WorkProcess(SetProcMsg)[20] : AXIS ZDOWN
+15:39:53.078 [I] WorkProcess(SetMsg)[20] : Delay Time 2000 msec
+15:39:55.156 [I] WorkProcess(SetMsg)[20] : Not_Found_Step : VERTICAL_Z_UP_ENTER

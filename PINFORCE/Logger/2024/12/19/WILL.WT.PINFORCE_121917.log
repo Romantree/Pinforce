@@ -1,0 +1,9 @@
+17:16:37.413 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:17:47.627 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+17:47:07.421 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:47:38.715 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+17:47:40.518 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로세스를 초기화하시겠습니까??
+17:47:41.490 [E] InitProc(ExcuteProcess)[17] : 해당 Step이 존재하지 않습니다. [MOTION_SERVO_ON_ENTER]
+17:47:56.551 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+17:51:32.124 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:52:02.893 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================

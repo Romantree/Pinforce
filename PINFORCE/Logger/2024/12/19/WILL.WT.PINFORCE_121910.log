@@ -1,0 +1,25 @@
+10:50:41.750 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+10:50:51.345 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+10:51:07.603 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+10:51:13.162 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+10:51:20.422 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+10:51:37.293 [E] ProcStep`1(ExcuteProcess)[21] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.ArgumentException: 요청한 값 'MOTION_MOVE_TIMEOUT_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.ToAlarm(eAxis axis) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 270
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.MotTimeout(eAxis axis, Double curPos, MotMove data) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 258
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.MotPoliing(WorkItem item, Double time, eAxis[] list) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 211
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.MOT_PROCESS_POS_MOVE_POLLING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 134
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+요청한 값 'MOTION_MOVE_TIMEOUT_AXIS_Z'을(를) 찾을 수 없습니다. => System.ArgumentException: 요청한 값 'MOTION_MOVE_TIMEOUT_AXIS_Z'을(를) 찾을 수 없습니다.
+   위치: System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   위치: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.ToAlarm(eAxis axis) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 270
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.MotTimeout(eAxis axis, Double curPos, MotMove data) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 258
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.MotPoliing(WorkItem item, Double time, eAxis[] list) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Motion.cs:줄 211
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.MOT_PROCESS_POS_MOVE_POLLING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 134

@@ -1,0 +1,80 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="xDataGridBack" Color="#CECECE"/>
+    <SolidColorBrush x:Key="xGridColumHeaderColor" Color="#FF394C61"/>
+    <SolidColorBrush x:Key="xGridColumHeaderFontColor" Color="White"/>
+    <SolidColorBrush x:Key="xGridRowColor1" Color="#FF738EAD"/>
+    <SolidColorBrush x:Key="xGridRowColor2" Color="DarkSlateBlue"/>
+    <SolidColorBrush x:Key="xGridRowSelect" Color="DimGray"/>
+    <SolidColorBrush x:Key="xGridCellFontColor" Color="White"/>
+    <SolidColorBrush x:Key="xGridCellSelect" Color="Transparent"/>
+
+    <Style TargetType="DataGridColumnHeader">
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Background" Value="{StaticResource xGridColumHeaderColor}"/>
+        <Setter Property="Foreground" Value="{StaticResource xGridColumHeaderFontColor}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+    <Style TargetType="DataGridRowHeader">
+        <Setter Property="Width" Value="0"/>
+    </Style>
+
+    <Style TargetType="DataGridRow">
+        <Setter Property="Margin" Value="2"/>
+        <Style.Triggers>
+            <Trigger Property="ItemsControl.AlternationIndex" Value="0">
+                <Setter Property="Background" Value="{StaticResource xGridRowColor1}"/>
+            </Trigger>
+            <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                <Setter Property="Background" Value="{StaticResource xGridRowColor2}"/>
+            </Trigger>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="{StaticResource xGridRowSelect}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="DataGridCell">
+        <Setter Property="Height" Value="35"/>
+        <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="{StaticResource xGridCellFontColor}"/>        
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="{StaticResource xGridCellSelect}"/>
+                <Setter Property="BorderThickness" Value="0"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="xDataGridBase" TargetType="DataGrid">
+        <Setter Property="Focusable" Value="False"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="Background" Value="{StaticResource xDataGridBack}"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="GridLinesVisibility" Value="None"/>
+        <Setter Property="SelectionMode" Value="Single"/>
+        <Setter Property="SelectionUnit" Value="FullRow"/>
+        <Setter Property="AutoGenerateColumns" Value="False"/>
+        <Setter Property="CanUserAddRows" Value="False"/>
+        <Setter Property="CanUserDeleteRows" Value="False"/>
+        <Setter Property="CanUserReorderColumns" Value="False"/>
+        <Setter Property="CanUserResizeColumns" Value="False"/>
+        <Setter Property="CanUserResizeRows" Value="False"/>
+        <Setter Property="CanUserSortColumns" Value="False"/>
+        <Setter Property="AlternationCount" Value="2"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
+    </Style>
+
+    <Style TargetType="DataGrid" BasedOn="{StaticResource xDataGridBase}"/>
+
+    <Style x:Key="GridTextBase" TargetType="TextBlock">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+</ResourceDictionary>

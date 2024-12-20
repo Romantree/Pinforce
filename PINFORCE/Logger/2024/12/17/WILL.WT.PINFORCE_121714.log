@@ -1,0 +1,217 @@
+14:08:39.957 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:39:50.102 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:39:58.477 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:40:04.849 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:48:36.029 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:48:53.370 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:49:17.523 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:49:57.880 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:50:24.603 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:50:30.800 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:50:37.397 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 현재 위치에서 작동이 불가능합니다. Home 위치로 초기화를 해주세요.
+14:50:54.144 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:50:55.316 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 현재 위치에서 작동이 불가능합니다. Home 위치로 초기화를 해주세요.
+14:51:01.073 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:51:02.398 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 현재 위치에서 작동이 불가능합니다. Home 위치로 초기화를 해주세요.
+14:51:10.073 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:51:11.243 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 현재 위치에서 작동이 불가능합니다. Home 위치로 초기화를 해주세요.
+14:51:15.207 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:51:21.884 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:51:56.531 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:52:01.469 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:52:03.951 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:52:10.291 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:52:21.137 [E] ProcStep`1(ExcuteProcess)[20] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg)
+[IN] = 'X_AXIS_Z_DOWN' => System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+14:52:21.652 [E] ProcStep`1(ExcuteProcess)[20] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg)
+[IN] = 'X_AXIS_Z_DOWN' => System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+14:52:23.679 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:52:42.510 [E] ProcStep`1(ExcuteProcess)[20] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg)
+[IN] = 'X_AXIS_Z_DOWN' => System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+14:52:43.053 [E] ProcStep`1(ExcuteProcess)[20] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg)
+[IN] = 'X_AXIS_Z_DOWN' => System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+14:52:45.827 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:52:50.455 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:52:54.904 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:52:55.941 [E] ProcStep`1(ExcuteProcess)[16] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOutManager.cs:줄 241
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOut\InOutManager.Cylinder.cs:줄 10
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 53
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 40
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\WorkProcess.cs:줄 35
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+[IN] = 'X_AXIS_Z_DOWN' => System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOutManager.cs:줄 241
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOut\InOutManager.Cylinder.cs:줄 10
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 53
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 40
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\WorkProcess.cs:줄 35
+14:52:55.973 [E] ProcStep`1(ExcuteProcess)[16] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOutManager.cs:줄 241
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOut\InOutManager.Cylinder.cs:줄 10
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 53
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 40
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\WorkProcess.cs:줄 35
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+[IN] = 'X_AXIS_Z_DOWN' => System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOutManager.cs:줄 241
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOut\InOutManager.Cylinder.cs:줄 10
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 53
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 40
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\WorkProcess.cs:줄 35
+14:52:58.707 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:53:01.344 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:53:06.837 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:55:42.660 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:55:53.238 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:56:17.366 [E] ProcStep`1(ExcuteProcess)[20] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg)
+[IN] = 'X_AXIS_Z_DOWN' => System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+14:56:18.654 [E] ProcStep`1(ExcuteProcess)[20] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg)
+[IN] = 'X_AXIS_Z_DOWN' => System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key)
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state)
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER()
+14:56:21.335 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:56:25.187 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:57:21.233 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:57:29.387 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+14:58:56.399 [E] ProcStep`1(ExcuteProcess)[20] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOutManager.cs:줄 241
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOut\InOutManager.Cylinder.cs:줄 10
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 53
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 40
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\WorkProcess.cs:줄 35
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+[IN] = 'X_AXIS_Z_DOWN' => System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOutManager.cs:줄 241
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOut\InOutManager.Cylinder.cs:줄 10
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 53
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 40
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\WorkProcess.cs:줄 35
+14:58:56.625 [E] ProcStep`1(ExcuteProcess)[20] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOutManager.cs:줄 241
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOut\InOutManager.Cylinder.cs:줄 10
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 53
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 40
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\WorkProcess.cs:줄 35
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+[IN] = 'X_AXIS_Z_DOWN' => System.Exception: [IN] = 'X_AXIS_Z_DOWN'
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.ReadX(String key) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOutManager.cs:줄 241
+   위치: WILL.WT.PINFORCE.Managers.InOutManager.GetCY(CyUnit unit, CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\InOut\InOutManager.Cylinder.cs:줄 10
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.CylinderEnter(CyUnit unit, CyState action) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 53
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.VerticalZMoveEnter(CyState state) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.Inout.cs:줄 40
+   위치: WILL.WT.PINFOCUS.Process.Work.WorkProcess.VERTICAL_Z_DOWN_ENTER() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\WorkProcess.cs:줄 35
+14:59:03.311 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?

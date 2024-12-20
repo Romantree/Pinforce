@@ -1,0 +1,98 @@
+10:01:54.299 [I] DemoProcess(SetMsg)[20] : START
+10:02:51.555 [I] DemoProcess(SetMsg)[20] : START
+10:02:57.520 [I] DemoProcess(SetMsg)[20] : Process 동작 1회
+10:02:59.396 [I] DemoProcess(SetMsg)[20] : Ready Position Move
+10:03:01.989 [I] DemoProcess(SetMsg)[20] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+10:03:04.909 [I] DemoProcess(SetMsg)[20] : Process Position Move
+10:03:06.086 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:0.000mm Move:10.000mm
+10:03:08.816 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:10.000mm Move:10.000mm
+10:03:17.162 [I] DemoProcess(SetMsg)[20] : Process 동작 2회
+10:03:18.969 [I] DemoProcess(SetMsg)[20] : Ready Position Move
+10:03:18.969 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:10.000mm Move:0.000mm
+10:03:22.514 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:0.000mm Move:0.000mm
+10:03:24.106 [I] DemoProcess(SetMsg)[20] : Process Position Move
+10:03:24.112 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:0.000mm Move:10.000mm
+10:03:26.257 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:10.000mm Move:10.000mm
+10:03:31.128 [I] DemoProcess(SetMsg)[20] : Process 동작 3회
+10:03:32.559 [I] DemoProcess(SetMsg)[20] : Ready Position Move
+10:03:32.560 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:10.000mm Move:0.000mm
+10:03:36.117 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:0.000mm Move:0.000mm
+10:03:36.960 [I] DemoProcess(SetMsg)[20] : Process Position Move
+10:03:36.960 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:0.000mm Move:10.000mm
+10:03:39.099 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:10.000mm Move:10.000mm
+10:03:44.598 [I] DemoProcess(SetMsg)[20] : Ready Position Move
+10:03:45.564 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:10.000mm Move:0.000mm
+10:03:49.112 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:0.000mm Move:0.000mm
+10:03:50.205 [I] DemoProcess(SetMsg)[20] : End
+10:11:25.129 [I] DemoProcess(SetMsg)[20] : START
+10:11:25.345 [I] DemoProcess(SetMsg)[20] : Process 동작 1회
+10:11:25.549 [I] DemoProcess(SetMsg)[20] : Ready Position Move
+10:11:25.554 [I] DemoProcess(SetMsg)[20] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+10:11:25.741 [I] DemoProcess(SetMsg)[20] : Process Position Move
+10:11:25.742 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:0.000mm Move:10.000mm
+10:11:27.885 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:10.000mm Move:10.000mm
+10:11:28.813 [I] DemoProcess(SetMsg)[20] : Process 동작 2회
+10:11:28.996 [I] DemoProcess(SetMsg)[20] : Ready Position Move
+10:11:28.996 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:10.000mm Move:0.000mm
+10:11:32.542 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:0.000mm Move:0.000mm
+10:11:36.783 [I] DemoProcess(SetMsg)[20] : Process Position Move
+10:11:36.783 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:0.000mm Move:10.000mm
+10:11:38.932 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:10.000mm Move:10.000mm
+10:11:39.324 [I] DemoProcess(SetMsg)[20] : Process 동작 3회
+10:11:39.509 [I] DemoProcess(SetMsg)[20] : Ready Position Move
+10:11:39.510 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:10.000mm Move:0.000mm
+10:11:43.034 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:0.000mm Move:0.000mm
+10:11:45.579 [I] DemoProcess(SetMsg)[20] : Process Position Move
+10:11:45.579 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:0.000mm Move:10.000mm
+10:11:47.726 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:10.000mm Move:10.000mm
+10:11:48.149 [I] DemoProcess(SetMsg)[20] : Ready Position Move
+10:11:48.150 [I] DemoProcess(SetMsg)[20] : AXIS_Z Move : Cur:10.000mm Move:0.000mm
+10:11:51.708 [I] DemoProcess(SetMsg)[20] : AXIS_Z : Cur:0.000mm Move:0.000mm
+10:11:52.826 [I] DemoProcess(SetMsg)[20] : End
+10:13:06.449 [I] DemoProcess(SetMsg)[21] : START
+10:13:06.726 [I] DemoProcess(SetMsg)[21] : Process 동작 1회
+10:13:06.897 [I] DemoProcess(SetMsg)[21] : Ready Position Move
+10:13:06.902 [I] DemoProcess(SetMsg)[21] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+10:13:07.062 [I] DemoProcess(SetMsg)[21] : Process Position Move
+10:13:07.063 [I] DemoProcess(SetMsg)[21] : AXIS_Z Move : Cur:0.000mm Move:10.000mm
+10:13:09.208 [I] DemoProcess(SetMsg)[21] : AXIS_Z : Cur:10.000mm Move:10.000mm
+10:13:10.222 [I] DemoProcess(SetMsg)[21] : Process 동작 2회
+10:13:10.311 [I] DemoProcess(SetMsg)[21] : Ready Position Move
+10:13:10.312 [I] DemoProcess(SetMsg)[21] : AXIS_Z Move : Cur:10.000mm Move:0.000mm
+10:13:13.864 [I] DemoProcess(SetMsg)[21] : AXIS_Z : Cur:0.000mm Move:0.000mm
+10:13:13.965 [I] DemoProcess(SetMsg)[21] : Process Position Move
+10:13:13.986 [I] DemoProcess(SetMsg)[21] : AXIS_Z Move : Cur:0.000mm Move:10.000mm
+10:13:16.128 [I] DemoProcess(SetMsg)[21] : AXIS_Z : Cur:10.000mm Move:10.000mm
+10:13:16.488 [I] DemoProcess(SetMsg)[21] : Process 동작 3회
+10:13:16.682 [I] DemoProcess(SetMsg)[21] : Ready Position Move
+10:13:16.684 [I] DemoProcess(SetMsg)[21] : AXIS_Z Move : Cur:10.000mm Move:0.000mm
+10:13:20.230 [I] DemoProcess(SetMsg)[21] : AXIS_Z : Cur:0.000mm Move:0.000mm
+10:13:20.292 [I] DemoProcess(SetMsg)[21] : Process Position Move
+10:13:20.292 [I] DemoProcess(SetMsg)[21] : AXIS_Z Move : Cur:0.000mm Move:10.000mm
+10:13:22.439 [I] DemoProcess(SetMsg)[21] : AXIS_Z : Cur:10.000mm Move:10.000mm
+10:13:22.562 [I] DemoProcess(SetMsg)[21] : Ready Position Move
+10:13:22.562 [I] DemoProcess(SetMsg)[21] : AXIS_Z Move : Cur:10.000mm Move:0.000mm
+10:13:26.941 [I] DemoProcess(SetMsg)[21] : START
+10:13:27.065 [I] DemoProcess(SetMsg)[21] : Process 동작 1회
+10:13:27.127 [I] DemoProcess(SetMsg)[21] : Ready Position Move
+10:13:27.127 [I] DemoProcess(SetMsg)[21] : AXIS_Z Move : Cur:4.600mm Move:0.000mm
+10:13:28.838 [I] DemoProcess(SetMsg)[21] : AXIS_Z : Cur:0.000mm Move:0.000mm
+10:13:28.899 [I] DemoProcess(SetMsg)[21] : Process Position Move
+10:13:28.899 [I] DemoProcess(SetMsg)[21] : AXIS_Z Move : Cur:0.000mm Move:10.000mm
+10:13:31.044 [I] DemoProcess(SetMsg)[21] : AXIS_Z : Cur:10.000mm Move:10.000mm
+10:13:31.165 [I] DemoProcess(SetMsg)[21] : Process 동작 2회
+10:13:31.227 [I] DemoProcess(SetMsg)[21] : Ready Position Move
+10:13:31.227 [I] DemoProcess(SetMsg)[21] : AXIS_Z Move : Cur:10.000mm Move:0.000mm
+10:13:34.770 [I] DemoProcess(SetMsg)[21] : AXIS_Z : Cur:0.000mm Move:0.000mm
+10:14:00.478 [I] DemoProcess(SetMsg)[16] : START
+10:14:00.701 [I] DemoProcess(SetMsg)[16] : Error : COUNT_SETTTING
+10:14:20.563 [I] DemoProcess(SetMsg)[16] : START
+10:14:20.717 [I] DemoProcess(SetMsg)[16] : Error : COUNT_SETTTING
+10:14:24.771 [I] DemoProcess(SetMsg)[16] : START
+10:14:24.926 [I] DemoProcess(SetMsg)[16] : Error : COUNT_SETTTING
+10:14:25.582 [I] DemoProcess(SetMsg)[17] : START
+10:14:25.747 [I] DemoProcess(SetMsg)[17] : Error : COUNT_SETTTING
+10:14:26.360 [I] DemoProcess(SetMsg)[16] : START
+10:14:26.526 [I] DemoProcess(SetMsg)[16] : Error : COUNT_SETTTING
+10:14:27.647 [I] DemoProcess(SetMsg)[16] : START
+10:14:27.813 [I] DemoProcess(SetMsg)[16] : Error : COUNT_SETTTING

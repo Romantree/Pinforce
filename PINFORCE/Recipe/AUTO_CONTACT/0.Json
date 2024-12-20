@@ -1,0 +1,30 @@
+{
+  "$type": "WILL.WT.PINFORCE.Models.Recipe.AutoContectRcpModel, WILL.WT.PINFORCE",
+  "RepeatCount": 1,
+  "IsAutoContect": false,
+  "IsLastReleaseMove": false,
+  "LastReleaseMoveDist": 0,
+  "AutoAdjustmentDist": 0,
+  "ProcTimeout": 0.0,
+  "Data01": {
+    "$type": "WILL.WT.PINFORCE.Models.Recipe.AutoContectData, WILL.WT.PINFORCE",
+    "OriginForce": 0.0,
+    "ContactStepDist": 0,
+    "MotionDelay": 0.0
+  },
+  "Data02": {
+    "$type": "WILL.WT.PINFORCE.Models.Recipe.AutoContectData, WILL.WT.PINFORCE",
+    "OriginForce": 0.0,
+    "ContactStepDist": 0,
+    "MotionDelay": 0.0
+  },
+  "Data03": {
+    "$type": "WILL.WT.PINFORCE.Models.Recipe.AutoContectData, WILL.WT.PINFORCE",
+    "OriginForce": 0.0,
+    "ContactStepDist": 0,
+    "MotionDelay": 0.0
+  },
+  "Type": 1,
+  "No": 0,
+  "Name": "AutoContact"
+}

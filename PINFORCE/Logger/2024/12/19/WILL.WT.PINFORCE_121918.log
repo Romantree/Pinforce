@@ -1,0 +1,8 @@
+18:09:51.670 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+18:10:01.202 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 시스템 초기화를 진행하시겠습니까?
+18:10:46.448 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+18:12:24.644 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+18:12:38.881 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+18:26:39.570 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+18:27:08.408 [E] SystemManager(System_OnInterlockMsgEvent)[1] : User 데이터 저장 되었습니다.
+18:41:19.019 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================

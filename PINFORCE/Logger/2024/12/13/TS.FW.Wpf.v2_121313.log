@@ -1,0 +1,26 @@
+13:16:01.872 [E] ValueBtn(OnMouseDown)[1] : 값은 null일 수 없습니다.
+매개 변수 이름: name => System.ArgumentNullException: 값은 null일 수 없습니다.
+매개 변수 이름: name
+   위치: System.Type.GetProperty(String name)
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+13:19:57.040 [E] ValueBtn(OnMouseDown)[1] : 값은 null일 수 없습니다.
+매개 변수 이름: name => System.ArgumentNullException: 값은 null일 수 없습니다.
+매개 변수 이름: name
+   위치: System.Type.GetProperty(String name)
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+13:22:20.203 [E] ValueBtn(OnMouseDown)[1] : 값은 null일 수 없습니다.
+매개 변수 이름: name => System.ArgumentNullException: 값은 null일 수 없습니다.
+매개 변수 이름: name
+   위치: System.Type.GetProperty(String name)
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+13:22:20.406 [E] ValueBtn(OnMouseDown)[1] : 값은 null일 수 없습니다.
+매개 변수 이름: name => System.ArgumentNullException: 값은 null일 수 없습니다.
+매개 변수 이름: name
+   위치: System.Type.GetProperty(String name)
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+13:52:54.277 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 92.229 MB
+13:52:55.521 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 218.690 MB
+13:52:58.035 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 286.163 MB
+13:52:59.286 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 325.891 MB
+13:53:05.540 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 375.076 MB
+13:53:06.780 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 429.201 MB

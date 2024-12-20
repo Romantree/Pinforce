@@ -1,0 +1,58 @@
+[
+  {
+    "$type": "WILL.WT.PINFORCE.Managers.IoSettingData, WILL.WT.PINFORCE",
+    "Key": "X_TEST_01",
+    "Type": 0,
+    "Address": "X00",
+    "Name": "TEST #1",
+    "SignalType": 0
+  },
+  {
+    "$type": "WILL.WT.PINFORCE.Managers.IoSettingData, WILL.WT.PINFORCE",
+    "Key": "X_TEST_02",
+    "Type": 0,
+    "Address": "X01",
+    "Name": "TEST #2",
+    "SignalType": 0
+  },
+  {
+    "$type": "WILL.WT.PINFORCE.Managers.IoSettingData, WILL.WT.PINFORCE",
+    "Key": "TEST_01",
+    "Type": 1,
+    "Address": "Y00",
+    "Name": "TEST #1",
+    "SignalType": 0
+  },
+  {
+    "$type": "WILL.WT.PINFORCE.Managers.IoSettingData, WILL.WT.PINFORCE",
+    "Key": "TEST_02",
+    "Type": 1,
+    "Address": "Y01",
+    "Name": "TEST #2",
+    "SignalType": 0
+  },
+  {
+    "$type": "WILL.WT.PINFORCE.Managers.IoSettingData, WILL.WT.PINFORCE",
+    "Key": "TOWER_LAMP_RED",
+    "Type": 1,
+    "Address": "Y02",
+    "Name": "TOWER LAMP RED",
+    "SignalType": 0
+  },
+  {
+    "$type": "WILL.WT.PINFORCE.Managers.IoSettingData, WILL.WT.PINFORCE",
+    "Key": "TOWER_LAMP_YELLOW",
+    "Type": 1,
+    "Address": "Y03",
+    "Name": "TOWER LAMP YELLOW",
+    "SignalType": 0
+  },
+  {
+    "$type": "WILL.WT.PINFORCE.Managers.IoSettingData, WILL.WT.PINFORCE",
+    "Key": "TOWER_LAMP_GREEN",
+    "Type": 1,
+    "Address": "Y04",
+    "Name": "TOWER LAMP GREEN",
+    "SignalType": 0
+  }
+]

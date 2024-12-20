@@ -1,0 +1,28 @@
+15:13:31.491 [I] InitProc(SetMsg)[17] : Start
+15:13:31.578 [I] InitProc(SetMsg)[17] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:13:33.135 [I] InitProc(SetMsg)[17] : Start
+15:13:33.215 [I] InitProc(SetMsg)[17] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:15:49.513 [I] InitProc(SetMsg)[17] : Start
+15:15:49.594 [I] InitProc(SetMsg)[17] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:15:54.434 [I] InitProc(SetMsg)[17] : Start
+15:15:54.518 [I] InitProc(SetMsg)[17] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:16:17.877 [I] InitProc(SetMsg)[21] : Start
+15:16:17.940 [I] InitProc(SetMsg)[21] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:16:44.782 [I] InitProc(SetMsg)[21] : Start
+15:16:45.809 [I] InitProc(SetMsg)[21] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:18:01.506 [I] InitProc(SetMsg)[18] : Start
+15:18:01.569 [I] InitProc(SetMsg)[18] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:18:48.766 [I] InitProc(SetMsg)[21] : Start
+15:18:48.829 [I] InitProc(SetMsg)[21] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:19:03.508 [I] InitProc(SetMsg)[21] : Start
+15:19:15.335 [I] InitProc(SetMsg)[21] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:19:20.846 [I] InitProc(SetMsg)[21] : Start
+15:19:20.909 [I] InitProc(SetMsg)[21] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:19:36.606 [I] InitProc(SetMsg)[21] : Start
+15:19:36.668 [I] InitProc(SetMsg)[21] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:19:40.520 [I] InitProc(SetMsg)[21] : Start
+15:19:40.582 [I] InitProc(SetMsg)[21] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:20:22.557 [I] InitProc(SetMsg)[21] : Start
+15:20:22.620 [I] InitProc(SetMsg)[21] : Not_Found_Step : MOTION_SERVO_ON_ENTER
+15:50:49.888 [I] InitProc(SetMsg)[21] : Start
+15:50:49.950 [I] InitProc(SetMsg)[21] : Not_Found_Step : MOTION_SERVO_ON_ENTER

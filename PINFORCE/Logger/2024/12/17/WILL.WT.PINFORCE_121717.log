@@ -1,0 +1,47 @@
+17:11:44.444 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:11:56.015 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+17:11:59.699 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+17:12:10.625 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+17:12:13.113 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+17:12:21.154 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+17:12:23.674 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+17:12:30.675 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:12:48.410 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+17:12:55.887 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+17:13:03.940 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:13:13.089 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+17:13:16.359 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+17:44:24.810 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:44:44.475 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+17:45:44.643 [E] SystemManager(System_OnInterlockMsgEvent)[1] : ReapeatCount가 설정되지 않았거나 0 입니다. 
+17:47:36.899 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:47:52.152 [E] SystemManager(System_OnInterlockMsgEvent)[1] : ReapeatCount가 설정되지 않았거나 0 입니다. 
+17:48:08.613 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:49:12.419 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+17:49:17.108 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:49:23.213 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 50
+17:49:29.197 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피 신규생성 되었습니다.
+17:49:47.187 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피 저장 되었습니다.
+17:49:57.484 [I] ProcManager(StartAxisZMove)[1] : 3 횟수
+17:49:57.484 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:50:01.142 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:50:02.338 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:50:02.752 [E] SystemManager(System_OnInterlockMsgEvent)[1] : Z AXIS 이동 완료
+17:50:20.258 [I] ProcManager(StartAxisZMove)[1] : 3 횟수
+17:50:20.387 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:50:21.696 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:50:23.236 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:50:24.452 [E] SystemManager(System_OnInterlockMsgEvent)[1] : Z AXIS 이동 완료
+17:54:17.630 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+17:54:32.393 [I] ProcManager(StartAxisZMove)[1] : 3 횟수
+17:54:32.395 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:54:33.704 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:54:34.695 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:54:35.133 [E] SystemManager(System_OnInterlockMsgEvent)[1] : Z AXIS 이동 완료
+17:55:03.022 [I] ProcManager(StartAxisZMove)[1] : 3 횟수
+17:55:03.024 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:55:03.982 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:55:04.512 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 위치를 벗어나 아래로 이동할 수 없습니다.
+17:55:04.893 [E] SystemManager(System_OnInterlockMsgEvent)[1] : Z AXIS 이동 완료

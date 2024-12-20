@@ -1,0 +1,147 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:d="clr-namespace:TS.FW.Wpf.v2.Converter;assembly=TS.FW.Wpf.v2"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <d:TsColorData x:Key="MENU" On="Lime" Off="WhiteSmoke"/>
+    <d:TsColorData x:Key="SELECT" On="Gray" Off="#FF646464"/>
+    <d:TsColorData x:Key="INOUT">
+        <d:TsColorData.On>
+            <RadialGradientBrush>
+                <RadialGradientBrush.RelativeTransform>
+                    <TranslateTransform X="0.1" Y="-0.1"/>
+                </RadialGradientBrush.RelativeTransform>
+
+                <GradientStop Color="White"/>
+                <GradientStop Color="Green" Offset="0.7"/>
+                <GradientStop Color="#FF066506" Offset="0.94"/>
+            </RadialGradientBrush>
+        </d:TsColorData.On>
+        <d:TsColorData.Off>
+            <RadialGradientBrush>
+                <RadialGradientBrush.RelativeTransform>
+                    <TranslateTransform X="0.1" Y="-0.1"/>
+                </RadialGradientBrush.RelativeTransform>
+
+                <GradientStop Color="White"/>
+                <GradientStop Color="Red" Offset="0.7"/>
+                <GradientStop Color="#FFD80C0C" Offset="0.94"/>
+            </RadialGradientBrush>
+        </d:TsColorData.Off>
+    </d:TsColorData>
+    <d:TsColorData x:Key="MOT">
+        <d:TsColorData.On>
+            <RadialGradientBrush>
+                <RadialGradientBrush.RelativeTransform>
+                    <TranslateTransform X="0.1" Y="-0.1"/>
+                </RadialGradientBrush.RelativeTransform>
+
+                <GradientStop Color="White"/>
+                <GradientStop Color="Green" Offset="0.7"/>
+                <GradientStop Color="#FF066506" Offset="0.94"/>
+            </RadialGradientBrush>
+        </d:TsColorData.On>
+        <d:TsColorData.Off>
+            <RadialGradientBrush>
+                <RadialGradientBrush.RelativeTransform>
+                    <TranslateTransform X="0.1" Y="-0.1"/>
+                </RadialGradientBrush.RelativeTransform>
+
+                <GradientStop Color="White"/>
+                <GradientStop Color="LightGray" Offset="0.7"/>
+                <GradientStop Color="Gray" Offset="0.94"/>
+            </RadialGradientBrush>
+        </d:TsColorData.Off>
+    </d:TsColorData>
+    <d:TsColorData x:Key="USED">
+        <d:TsColorData.On>
+            <RadialGradientBrush>
+                <RadialGradientBrush.RelativeTransform>
+                    <TranslateTransform X="0.1" Y="-0.1"/>
+                </RadialGradientBrush.RelativeTransform>
+
+                <GradientStop Color="White"/>
+                <GradientStop Color="Green" Offset="0.7"/>
+                <GradientStop Color="#FF066506" Offset="0.94"/>
+            </RadialGradientBrush>
+        </d:TsColorData.On>
+        <d:TsColorData.Off>
+            <RadialGradientBrush>
+                <RadialGradientBrush.RelativeTransform>
+                    <TranslateTransform X="0.1" Y="-0.1"/>
+                </RadialGradientBrush.RelativeTransform>
+
+                <GradientStop Color="White"/>
+                <GradientStop Color="LightGray" Offset="0.7"/>
+                <GradientStop Color="Gray" Offset="0.94"/>
+            </RadialGradientBrush>
+        </d:TsColorData.Off>
+    </d:TsColorData>
+    <d:TsColorData x:Key="OUTPUT" On="DimGray" Off="LightSlateGray"/>
+    <d:TsColorData x:Key="OUTPUT_F" On="WhiteSmoke" Off="Navy"/>
+    <d:TsColorData x:Key="LAMP" On="Lime" Off="LightGray"/>
+    <d:TsColorData x:Key="ALARM" On="Red" Off="LightGray"/>
+    <d:TsColorData x:Key="LIMIT" On="Red" Off="LimeGreen"/>
+    <d:TsColorData x:Key="ENABLE" On="Green" Off="DimGray"/>
+    <d:TsColorData x:Key="SERVO" On="WhiteSmoke" Off="Yellow"/>
+    
+    <d:TsColorData x:Key="RED" On="White" Off="Red"/>
+    <d:TsColorData x:Key="YELLOW" On="DimGray" Off="Yellow"/>
+    <d:TsColorData x:Key="GREEN" On="White" Off="Green"/>
+    
+    <d:TsColorData x:Key="WAFER" On="Blue" Off="White"/>
+
+    <d:TsColorData x:Key="DOOR" On="BlueViolet" Off="Red"/>
+    <d:TsColorData x:Key="EMO">
+        <d:TsColorData.On>
+            <RadialGradientBrush>
+                <RadialGradientBrush.RelativeTransform>
+                    <TranslateTransform X="0.1" Y="-0.1"/>
+                </RadialGradientBrush.RelativeTransform>
+
+                <GradientStop Color="White"/>
+                <GradientStop Color="Red" Offset="0.7"/>
+                <GradientStop Color="#FFD80C0C" Offset="0.94"/>
+            </RadialGradientBrush>
+        </d:TsColorData.On>
+        <d:TsColorData.Off>
+            <RadialGradientBrush>
+                <RadialGradientBrush.RelativeTransform>
+                    <TranslateTransform X="0.1" Y="-0.1"/>
+                </RadialGradientBrush.RelativeTransform>
+
+                <GradientStop Color="White"/>
+                <GradientStop Color="LightGray" Offset="0.7"/>
+                <GradientStop Color="Gray" Offset="0.94"/>
+            </RadialGradientBrush>
+        </d:TsColorData.Off>
+    </d:TsColorData>
+    <d:TsColorData x:Key="NET_BACK" On="WhiteSmoke" Off="IndianRed"/>
+    <d:TsColorData x:Key="NET_FONT" On="Black" Off="WhiteSmoke"/>
+    <d:TsColorData x:Key="INTERLOCK" On="Green" Off="Red"/>
+
+    <d:TsColorData x:Key="OnOff" On="Green" Off="Red"/>
+    <d:TsColorData x:Key="OnOff3D">
+        <d:TsColorData.On>
+            <RadialGradientBrush>
+                <RadialGradientBrush.RelativeTransform>
+                    <TranslateTransform X="0.1" Y="-0.1"/>
+                </RadialGradientBrush.RelativeTransform>
+                
+                <GradientStop Color="White"/>
+                <GradientStop Color="Green" Offset="0.7"/>
+                <GradientStop Color="#FF066506" Offset="0.94"/>
+            </RadialGradientBrush>
+        </d:TsColorData.On>
+        <d:TsColorData.Off>
+            <RadialGradientBrush>
+                <RadialGradientBrush.RelativeTransform>
+                    <TranslateTransform X="0.1" Y="-0.1"/>
+                </RadialGradientBrush.RelativeTransform>
+
+                <GradientStop Color="White"/>
+                <GradientStop Color="Red" Offset="0.7"/>
+                <GradientStop Color="#FFD80C0C" Offset="0.94"/>
+            </RadialGradientBrush>
+        </d:TsColorData.Off>
+    </d:TsColorData>
+</ResourceDictionary>

@@ -1,0 +1,86 @@
+12:00:10.313 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+12:00:18.290 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 하시겠습니까?
+12:00:30.319 [E] ProcStep`1(ExcuteProcess)[21] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+입력 문자열의 형식이 잘못되었습니다. => System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+12:00:43.469 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+12:00:51.429 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+12:00:59.430 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 하시겠습니까?
+12:01:14.050 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+12:01:23.644 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 하시겠습니까?
+12:01:36.818 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+12:48:36.005 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+12:48:36.057 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+12:48:41.257 [E] SystemManager(System_OnInterlockMsgEvent)[1] : User 데이터 저장 되었습니다.
+12:49:11.118 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+12:49:11.146 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+12:49:11.922 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+12:49:11.954 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+12:54:58.693 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+12:54:58.719 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+12:55:01.883 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================

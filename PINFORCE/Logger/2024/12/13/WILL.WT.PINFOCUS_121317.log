@@ -1,0 +1,5 @@
+17:57:37.188 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+17:57:42.069 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+17:57:43.266 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+17:57:44.386 [E] WorkProcess(ExcuteProcess)[17] : 해당 Step이 존재하지 않습니다. [AXIS_Z_DOWN_ENTER]
+17:57:50.317 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================

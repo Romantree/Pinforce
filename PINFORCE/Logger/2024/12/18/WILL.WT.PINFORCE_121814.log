@@ -1,0 +1,85 @@
+14:00:39.431 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:23:55.674 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:24:08.544 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+14:24:10.876 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+14:24:10.932 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+14:24:19.624 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+14:24:19.666 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+14:24:21.449 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+14:24:21.501 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+14:26:18.983 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:26:36.120 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:27:00.385 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+14:27:00.426 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+14:29:49.980 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:30:03.244 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:30:05.691 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:46:56.971 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:47:07.358 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+14:47:17.860 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:47:26.380 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:47:32.377 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+14:47:34.367 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+14:47:42.628 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:53:17.281 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:53:27.735 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+14:53:39.314 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:53:46.337 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:53:52.837 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+14:53:56.496 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:54:18.845 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:54:24.810 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+14:54:32.032 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:54:44.477 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:54:51.743 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+14:56:09.987 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+14:56:16.105 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+14:56:27.403 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================

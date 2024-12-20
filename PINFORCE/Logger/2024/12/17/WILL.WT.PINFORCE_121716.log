@@ -1,0 +1,24 @@
+16:02:08.678 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:02:23.309 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+16:02:29.513 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+16:02:36.893 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+16:02:50.800 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+16:03:43.829 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피 삭제 되었습니다.
+16:03:50.201 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피 신규생성 되었습니다.
+16:04:09.232 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피 저장 되었습니다.
+16:04:12.034 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+16:04:15.061 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:04:19.245 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:04:31.953 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+16:12:05.394 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:15:11.236 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 선택 된 레시피가 없습니다.
+16:27:08.356 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:27:09.094 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:27:18.068 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+16:27:21.738 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+16:27:26.598 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:28:25.112 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+16:28:29.318 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+16:29:04.697 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+16:29:13.109 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+16:32:30.080 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================

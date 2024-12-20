@@ -1,0 +1,22 @@
+09:43:39.382 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+09:43:50.953 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 초기화 후 재시도 해주세요.
+09:43:52.408 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+09:43:56.358 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 프로세스 정지 후 재시도 해주세요.
+09:44:15.537 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+09:44:19.560 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+09:45:56.752 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+09:46:02.500 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+09:46:09.247 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+09:52:17.126 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+09:52:25.731 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+09:52:27.416 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+09:52:35.505 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+09:56:03.894 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+09:56:13.007 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+09:56:22.582 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+09:57:15.012 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+09:57:19.571 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 진행하시겠습니까?
+09:57:31.573 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+09:57:47.684 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+09:57:58.799 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+09:58:02.090 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================

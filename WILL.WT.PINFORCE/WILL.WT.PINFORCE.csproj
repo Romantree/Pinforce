@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\OpenCvSharp4.runtime.win.4.10.0.20241108\build\net48\OpenCvSharp4.runtime.win.props" Condition="Exists('..\packages\OpenCvSharp4.runtime.win.4.10.0.20241108\build\net48\OpenCvSharp4.runtime.win.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4341A425-95CF-4C5E-814E-230A450F12C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WILL.WT.PINFORCE</RootNamespace>
+    <AssemblyName>WILL.WT.PINFORCE</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Thinksoft\WILL.WT.PINFORCE\Exe\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Thinksoft\WILL.WT.PINFORCE\Exe\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Program.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Thinksoft\WILL.WT.PINFORCE\Exe\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\..\Thinksoft\WILL.WT.PINFORCE\Exe\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="InfragisticsWPF4.Controls.Charts.XamDataChart.v20.1, Version=20.1.20201.182, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Infragistics\2020.1\WPF\CLR4.0\Bin\InfragisticsWPF4.Controls.Charts.XamDataChart.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.DataVisualization.v20.1, Version=20.1.20201.182, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Infragistics\2020.1\WPF\CLR4.0\Bin\InfragisticsWPF4.DataVisualization.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.v20.1, Version=20.1.20201.182, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Infragistics\2020.1\WPF\CLR4.0\Bin\InfragisticsWPF4.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="OpenCvSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp4.4.10.0.20241108\lib\net48\OpenCvSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.WpfExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp4.WpfExtensions.4.10.0.20241108\lib\net48\OpenCvSharp.WpfExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.8.0.0\lib\net462\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TS.FW">
+      <HintPath>..\..\..\TS.FW.ver1\TS.FW\TS.FW.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.FW.Dac">
+      <HintPath>..\..\..\TS.FW.ver1\TS.FW.Dac\TS.FW.Dac.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.FW.Dac.Alarm">
+      <HintPath>..\..\..\TS.FW.ver1\TS.FW.Dac.Alarm\TS.FW.Dac.Alarm.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.FW.Dac.Cfg">
+      <HintPath>..\..\..\TS.FW.ver1\TS.FW.Dac.Cfg\TS.FW.Dac.Cfg.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.FW.Device">
+      <HintPath>..\..\..\TS.FW.ver1\TS.FW.Device\TS.FW.Device.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.FW.Wpf">
+      <HintPath>..\..\..\TS.FW.ver1\TS.FW.Wpf\TS.FW.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.FW.Wpf.v2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\TS.FW.ver1\TS.FW.Wpf.v2\TS.FW.Wpf.v2.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AP.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configs\AutoContactParamDB.cs" />
+    <Compile Include="Configs\LoadcellDB.cs" />
+    <Compile Include="Configs\MotionDB.cs" />
+    <Compile Include="Configs\NetworkDB.cs" />
+    <Compile Include="Configs\WorkParamDB.cs" />
+    <Compile Include="Controls\Chart\ChartDisplay.xaml.cs">
+      <DependentUpon>ChartDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Motion\SpeedSetting.xaml.cs">
+      <DependentUpon>SpeedSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Motion\NewAxisControl.xaml.cs">
+      <DependentUpon>NewAxisControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Motion\AxisControl.xaml.cs">
+      <DependentUpon>AxisControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Motion\AxisList.xaml.cs">
+      <DependentUpon>AxisList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Motion\MotionControl.xaml.cs">
+      <DependentUpon>MotionControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Motion\SoftwareLimit.xaml.cs">
+      <DependentUpon>SoftwareLimit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Motion\SvcAxisList.xaml.cs">
+      <DependentUpon>SvcAxisList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RcpStage.xaml.cs">
+      <DependentUpon>RcpStage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Vision\VisionDisplay.xaml.cs">
+      <DependentUpon>VisionDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="eAlarm.cs" />
+    <Compile Include="eEnum.cs" />
+    <Compile Include="Managers\ChartManager.cs" />
+    <Compile Include="Managers\ExcelManager.cs" />
+    <Compile Include="Managers\ProcManager.cs" />
+    <Compile Include="Models\Axis\AxisLimitModel.cs" />
+    <Compile Include="Models\Axis\AxisStateModel.cs" />
+    <Compile Include="Managers\CameraManager.cs" />
+    <Compile Include="Models\Axis\MotionModel.cs" />
+    <Compile Include="Models\Config\DelayDataModel.cs" />
+    <Compile Include="Models\Config\LimitDataModel.cs" />
+    <Compile Include="Models\Config\LoadcellRangeDataModel.cs" />
+    <Compile Include="Models\Config\MotionDataModel.cs" />
+    <Compile Include="Models\Config\TimeoutDataModel.cs" />
+    <Compile Include="Models\EqpControl.cs" />
+    <Compile Include="Models\IConfigModel.cs" />
+    <Compile Include="Models\InterlockState.cs" />
+    <Compile Include="Models\NetworkState.cs" />
+    <Compile Include="Models\Network\INetSerialPortModel.cs" />
+    <Compile Include="Models\InOut\CylinderModel.cs" />
+    <Compile Include="Models\InOut\InStateModel.cs" />
+    <Compile Include="Models\InOut\OutControlModel.cs" />
+    <Compile Include="Models\Recipe\AutoContectRcpModel.cs" />
+    <Compile Include="Models\Recipe\MainRecipeModel.cs" />
+    <Compile Include="Models\Axis\SpeedModel.cs" />
+    <Compile Include="Models\Setup\LoadcellDataModel.cs" />
+    <Compile Include="Models\TowerLamp.cs" />
+    <Compile Include="Models\VisionUIData.cs" />
+    <Compile Include="Networks\NetLoadcell.cs" />
+    <Compile Include="Process\Init\InitProc.cs" />
+    <Compile Include="Process\Init\InitProcStep.cs" />
+    <Compile Include="Process\IProcessTimer.cs" />
+    <Compile Include="Process\IProcessTimer.Inout.cs" />
+    <Compile Include="Process\IProcessTimer.Manager.cs" />
+    <Compile Include="Process\IProcessTimer.Motion.cs" />
+    <Compile Include="Process\IProcessTimer.Network.cs" />
+    <Compile Include="Process\IUnitProcess.cs" />
+    <Compile Include="Process\ProcStep.cs" />
+    <Compile Include="Process\Saferty\SafertyProc.cs" />
+    <Compile Include="Process\Work\IWorkProcess.cs" />
+    <Compile Include="Process\Work\Main\MainProc.cs" />
+    <Compile Include="Process\Work\Main\MainStep.cs" />
+    <Compile Include="Test.xaml.cs">
+      <DependentUpon>Test.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\Pages\Alarm\AlarmHistoryViewModel.cs" />
+    <Compile Include="ViewModels\Pages\Alarm\AlarmMainViewModel.cs" />
+    <Compile Include="ViewModels\Pages\Alarm\AlarmSettingViewModel.cs" />
+    <Compile Include="ViewModels\Pages\Config\CfgWorkViewModel.cs" />
+    <Compile Include="ViewModels\Pages\DashBoard\DashMainViewModel.cs" />
+    <Compile Include="ViewModels\Pages\MainPage.cs" />
+    <Compile Include="ViewModels\Pages\Recipe\RcpMainViewModel.cs" />
+    <Compile Include="ViewModels\Pages\Service\SvcMainViewModel.cs" />
+    <Compile Include="ViewModels\Pages\Setup\SetupInOutViewModel.cs" />
+    <Compile Include="ViewModels\Pages\Setup\SetupLoadcellViewModel.cs" />
+    <Compile Include="ViewModels\Pages\Setup\SetupMotionViewModel.cs" />
+    <Compile Include="ViewModels\Pages\Setup\SetupVisionViewModel.cs" />
+    <Compile Include="ViewModels\Pages\SubPage.cs" />
+    <Compile Include="ViewModels\Pages\Utility\UtLogFileViewModel.cs" />
+    <Compile Include="ViewModels\Pages\Utility\UtUserViewModel.cs" />
+    <Compile Include="Views\MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Alarm\AlarmHistoryView.xaml.cs">
+      <DependentUpon>AlarmHistoryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Alarm\AlarmMainView.xaml.cs">
+      <DependentUpon>AlarmMainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Alarm\AlarmSettingView.xaml.cs">
+      <DependentUpon>AlarmSettingView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Config\CfgWorkView.xaml.cs">
+      <DependentUpon>CfgWorkView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\DashBoard\DashMainView.xaml.cs">
+      <DependentUpon>DashMainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\MainPageAppendView.xaml.cs">
+      <DependentUpon>MainPageAppendView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\MainPageView.xaml.cs">
+      <DependentUpon>MainPageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Recipe\RcpMainView.xaml.cs">
+      <DependentUpon>RcpMainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Service\SvcMainView.xaml.cs">
+      <DependentUpon>SvcMainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Setup\SetupInOutView.xaml.cs">
+      <DependentUpon>SetupInOutView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Setup\SetupLoadcellView.xaml.cs">
+      <DependentUpon>SetupLoadcellView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Setup\SetupMotionView.xaml.cs">
+      <DependentUpon>SetupMotionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Setup\SetupVisionView.xaml.cs">
+      <DependentUpon>SetupVisionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Utility\UtLogFileView.xaml.cs">
+      <DependentUpon>UtLogFileView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Utility\UtUserView.xaml.cs">
+      <DependentUpon>UtUserView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Win\RcpSelectView.xaml.cs">
+      <DependentUpon>RcpSelectView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Win\SetupJogSpdView.xaml.cs">
+      <DependentUpon>SetupJogSpdView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configs\UserDB.cs" />
+    <Compile Include="Managers\AlarmManager.cs" />
+    <Compile Include="Managers\DeviceManager.cs" />
+    <Compile Include="Managers\Device\DeviceManager.Motion.cs" />
+    <Compile Include="Managers\InOutManager.cs" />
+    <Compile Include="Managers\InOut\InOutManager.BitChange.cs" />
+    <Compile Include="Managers\InOut\InOutManager.Cylinder.cs" />
+    <Compile Include="Managers\InOut\InOutManager.In.cs" />
+    <Compile Include="Managers\InOut\InOutManager.Out.cs" />
+    <Compile Include="Managers\InOut\InOutManager.Vacuum.cs" />
+    <Compile Include="Managers\NetManager.cs" />
+    <Compile Include="Managers\RecipeManager.cs" />
+    <Compile Include="Managers\SystemManager.cs" />
+    <Compile Include="Models\IRecipeModel.cs" />
+    <Compile Include="Models\Axis\AxisModel.cs" />
+    <Compile Include="Models\InOut\InOutModel.cs" />
+    <Compile Include="Networks\INetSerialPort.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Assets\Alarm.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Assets\Config.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Program.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Configs\DB저장값은_여기에.txt" />
+    <Content Include="dll\OpenCvSharpExtern.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Assets\로고.png" />
+    <Resource Include="Assets\Program.ico" />
+    <Content Include="Assets\x64\SQLite.Interop.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\x86\SQLite.Interop.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Controls\Chart\ChartDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Motion\SpeedSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Motion\NewAxisControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\Motion\AxisControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Motion\AxisList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Motion\MotionControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Motion\SoftwareLimit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Motion\SvcAxisList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\RcpStage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Vision\VisionDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Brushs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Buttons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\ColorData.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Converters.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\DataGrid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\ScrollViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\TextBlock.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Windows.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Pages\Alarm\AlarmHistoryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Pages\Alarm\AlarmMainView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Pages\Alarm\AlarmSettingView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Pages\Config\CfgWorkView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Views\Pages\DashBoard\DashMainView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Pages\MainPageAppendView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\MainPageView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Pages\Recipe\RcpMainView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\Service\SvcMainView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\Setup\SetupInOutView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Views\Pages\Setup\SetupLoadcellView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Views\Pages\Setup\SetupMotionView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Pages\Setup\SetupVisionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Views\Pages\Utility\UtLogFileView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Pages\Utility\UtUserView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Win\RcpSelectView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Win\SetupJogSpdView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\Service\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\OpenCvSharp4.runtime.win.4.10.0.20241108\build\net48\OpenCvSharp4.runtime.win.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\OpenCvSharp4.runtime.win.4.10.0.20241108\build\net48\OpenCvSharp4.runtime.win.props'))" />
+  </Target>
+</Project>

@@ -1,0 +1,99 @@
+16:01:36.983 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 91.707 MB
+16:01:38.248 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 219.025 MB
+16:01:53.944 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 99.170 MB
+16:01:55.194 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 279.368 MB
+16:01:56.446 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 361.204 MB
+16:02:22.670 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 99.457 MB
+16:02:23.926 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 299.433 MB
+16:02:25.169 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 358.836 MB
+16:02:26.374 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 403.194 MB
+16:03:55.957 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 90.017 MB
+16:03:57.212 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 266.321 MB
+16:03:58.491 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 352.599 MB
+16:04:15.031 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 101.104 MB
+16:04:16.295 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 220.098 MB
+16:04:17.565 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 311.574 MB
+16:04:18.809 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 357.241 MB
+16:05:11.519 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 96.824 MB
+16:05:12.767 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 301.785 MB
+16:05:14.029 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 355.964 MB
+16:05:30.145 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 95.452 MB
+16:05:31.394 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 264.510 MB
+16:05:32.654 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 356.564 MB
+16:05:47.813 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 87.284 MB
+16:05:49.079 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 206.161 MB
+16:05:50.336 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 310.338 MB
+16:08:46.345 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 98.787 MB
+16:08:47.608 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 269.334 MB
+16:08:48.882 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 344.610 MB
+16:09:15.115 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 104.059 MB
+16:09:16.368 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 330.522 MB
+16:09:17.634 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 372.230 MB
+16:11:30.728 [E] PgDashViewModel(Init)[1] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.MissingMethodException: 이 개체에 대해 매개 변수가 없는 생성자가 정의되지 않았습니다.
+   위치: System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   위치: System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   위치: System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   위치: System.Activator.CreateInstance(Type type)
+   위치: TS.FW.Wpf.v2.Subscribe.IPageViewModel.ToPageViewList[T]() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IPageViewModel.cs:줄 61
+   위치: TS.FW.Wpf.v2.Subscribe.MainPageSelecter`1.Init() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\MainPageSelecter.cs:줄 16
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: TS.FW.Wpf.v2.Subscribe.IMainPageViewModel.MethodCall(String name) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IMainPageViewModel.cs:줄 58
+   위치: TS.FW.Wpf.v2.Subscribe.IMainPageViewModel.Init() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IMainPageViewModel.cs:줄 13
+이 개체에 대해 매개 변수가 없는 생성자가 정의되지 않았습니다. => System.MissingMethodException: 이 개체에 대해 매개 변수가 없는 생성자가 정의되지 않았습니다.
+   위치: System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   위치: System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   위치: System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   위치: System.Activator.CreateInstance(Type type)
+   위치: TS.FW.Wpf.v2.Subscribe.IPageViewModel.ToPageViewList[T]() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IPageViewModel.cs:줄 61
+   위치: TS.FW.Wpf.v2.Subscribe.MainPageSelecter`1.Init() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\MainPageSelecter.cs:줄 16
+16:11:31.115 [E] MainPageSelecter`1(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Subscribe.MainPageSelecter`1.Show() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\MainPageSelecter.cs:줄 30
+16:11:31.779 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 114.050 MB
+16:11:33.024 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 155.990 MB
+16:11:48.309 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 102.229 MB
+16:11:49.571 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 349.548 MB
+16:11:50.845 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 390.398 MB
+16:12:26.756 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 105.482 MB
+16:12:28.011 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 246.233 MB
+16:12:29.263 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 366.623 MB
+16:12:47.850 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 420.960 MB
+16:12:49.095 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 435.984 MB
+16:13:31.081 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 88.581 MB
+16:13:32.348 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 203.157 MB
+16:13:33.643 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 244.555 MB
+16:13:34.935 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 323.801 MB
+16:13:37.504 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 325.030 MB
+16:13:50.129 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 356.554 MB
+16:25:47.482 [E] ValueBtn(OnMouseDown)[1] : 값은 null일 수 없습니다.
+매개 변수 이름: name => System.ArgumentNullException: 값은 null일 수 없습니다.
+매개 변수 이름: name
+   위치: System.Type.GetProperty(String name)
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+16:25:49.043 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 411.494 MB
+16:25:49.098 [E] ValueBtn(OnMouseDown)[1] : 값은 null일 수 없습니다.
+매개 변수 이름: name => System.ArgumentNullException: 값은 null일 수 없습니다.
+매개 변수 이름: name
+   위치: System.Type.GetProperty(String name)
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+16:25:50.299 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 430.402 MB
+16:25:51.557 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 451.026 MB
+16:25:51.689 [E] ValueBtn(OnMouseDown)[1] : 값은 null일 수 없습니다.
+매개 변수 이름: name => System.ArgumentNullException: 값은 null일 수 없습니다.
+매개 변수 이름: name
+   위치: System.Type.GetProperty(String name)
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+16:25:51.895 [E] ValueBtn(OnMouseDown)[1] : 값은 null일 수 없습니다.
+매개 변수 이름: name => System.ArgumentNullException: 값은 null일 수 없습니다.
+매개 변수 이름: name
+   위치: System.Type.GetProperty(String name)
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+16:25:52.431 [E] ValueBtn(OnMouseDown)[1] : 값은 null일 수 없습니다.
+매개 변수 이름: name => System.ArgumentNullException: 값은 null일 수 없습니다.
+매개 변수 이름: name
+   위치: System.Type.GetProperty(String name)
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+16:25:52.800 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 488.059 MB

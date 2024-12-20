@@ -1,0 +1,68 @@
+11:00:54.624 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 설정 저장 하시겠습니까?
+11:01:06.395 [E] SystemManager(System_OnInterlockMsgEvent)[1] : User 데이터 저장 되었습니다.
+11:03:08.985 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 설정 저장 하시겠습니까?
+11:03:48.165 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:04:10.117 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 설정 저장 하시겠습니까?
+11:04:11.399 [E] SystemManager(System_OnInterlockMsgEvent)[1] : User 데이터 저장 되었습니다.
+11:07:41.017 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:07:45.513 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:08:55.691 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:10:04.612 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:12:24.503 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:13:19.241 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:15:55.629 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:16:22.269 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:17:16.587 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:18:26.536 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:19:25.223 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 설정 저장 하시겠습니까?
+11:19:37.604 [E] SystemManager(System_OnInterlockMsgEvent)[1] : User 데이터 저장 되었습니다.
+11:19:42.544 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:19:47.004 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:20:07.428 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:20:10.377 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:20:19.031 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:31:21.039 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:32:24.742 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:39:43.511 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:39:51.765 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+11:40:18.230 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+11:41:59.912 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:42:03.029 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:42:12.325 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+11:42:21.829 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피 삭제 되었습니다.
+11:42:25.162 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+11:43:12.791 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:43:16.164 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:43:19.373 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 52
+11:43:21.624 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:44:09.506 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:44:12.219 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 52
+11:44:13.777 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+11:44:16.812 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:44:23.833 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:44:26.801 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 53
+11:44:31.176 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피가 선택되지 않았습니다.
+11:44:38.986 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:44:42.937 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:44:45.823 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 53
+11:46:04.300 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:46:07.176 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 52
+11:46:12.526 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피 신규생성 되었습니다.
+11:46:45.630 [E] SystemManager(System_OnInterlockMsgEvent)[1] : 레시피 저장 되었습니다.
+11:46:47.840 [E] DashMainViewModel(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.Managers.RecipeManager.Reload[T](IRecipeModel model) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Managers\RecipeManager.cs:줄 106
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.Show() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 52
+11:47:07.791 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:47:14.062 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+11:47:24.119 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 프로그램을 실행하시겠습니까?
+11:47:32.376 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================

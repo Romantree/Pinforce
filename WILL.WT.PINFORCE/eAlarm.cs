@@ -1,0 +1,17 @@
+﻿namespace WILL.WT.PINFORCE
+{
+    public enum eAlarm
+    {
+        MOTION_SERVO_ON_TIMEOUT,
+        MOTION_ALARM_RESET_TIMEOUT,
+        MOTION_GANTRY_TIMEOUT,
+
+        MOTION_SERVO_OFF_AXIS_01,
+
+        MOTION_ALARM_ON_AXIS_01,
+
+        MOTION_MOVE_TIMEOUT_AXIS_01,
+
+        AUTO_CONTECT_PROC_TIMEOUT,
+    }
+}

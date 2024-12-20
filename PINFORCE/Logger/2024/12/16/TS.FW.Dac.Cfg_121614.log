@@ -1,0 +1,38 @@
+14:29:58.930 [E] ConfigRTx(Upsert)[5] : database is locked
+database is locked => code = Busy (5), message = System.Data.SQLite.SQLiteException (0x800007AF): database is locked
+database is locked
+   위치: System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   위치: System.Data.SQLite.SQLiteDataReader.NextResult()
+   위치: System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   위치: System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   위치: System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   위치: System.Data.SQLite.SQLiteTransaction.Begin(Boolean deferredLock)
+   위치: System.Data.SQLite.SQLiteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   위치: System.Data.SQLite.SQLiteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   위치: System.Data.SQLite.SQLiteEnlistment..ctor(SQLiteConnection cnn, Transaction scope, IsolationLevel defaultIsolationLevel, Boolean throwOnUnavailable, Boolean throwOnUnsupported)
+   위치: System.Data.SQLite.SQLiteConnection.EnlistTransaction(Transaction transaction)
+   위치: System.Data.SQLite.SQLiteConnection.Open()
+   위치: TS.FW.Dac.Core.IDacBase.InitConnection(ConnectionStringSettings config) 파일 C:\000.Source\_TS.FW\TS.FW\TS.FW.Dac\Core\IDacBase.cs:줄 72
+   위치: TS.FW.Dac.Core.IDacBase..ctor(String connectionString) 파일 C:\000.Source\_TS.FW\TS.FW\TS.FW.Dac\Core\IDacBase.cs:줄 53
+   위치: TS.FW.Dac.Core.IDacBase`1..ctor(String connectionString) 파일 C:\000.Source\_TS.FW\TS.FW\TS.FW.Dac\Core\IDacBase.cs:줄 191
+   위치: TS.FW.Dac.Cfg.ConfigDac..ctor() 파일 C:\000.Source\_TS.FW\TS.FW\TS.FW.Dac.Cfg\Dac\ConfigDac.cs:줄 12
+   위치: TS.FW.Dac.Cfg.ConfigRTx.Upsert(String group, String name, Object value) 파일 C:\000.Source\_TS.FW\TS.FW\TS.FW.Dac.Cfg\Biz\ConfigRTx.cs:줄 19
+14:29:58.952 [E] ProgrammerUser(Upsert)[5] : database is locked
+database is locked => code = Busy (5), message = System.Data.SQLite.SQLiteException (0x800007AF): database is locked
+database is locked
+   위치: System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   위치: System.Data.SQLite.SQLiteDataReader.NextResult()
+   위치: System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   위치: System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   위치: System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   위치: System.Data.SQLite.SQLiteTransaction.Begin(Boolean deferredLock)
+   위치: System.Data.SQLite.SQLiteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   위치: System.Data.SQLite.SQLiteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   위치: System.Data.SQLite.SQLiteEnlistment..ctor(SQLiteConnection cnn, Transaction scope, IsolationLevel defaultIsolationLevel, Boolean throwOnUnavailable, Boolean throwOnUnsupported)
+   위치: System.Data.SQLite.SQLiteConnection.EnlistTransaction(Transaction transaction)
+   위치: System.Data.SQLite.SQLiteConnection.Open()
+   위치: TS.FW.Dac.Core.IDacBase.InitConnection(ConnectionStringSettings config) 파일 C:\000.Source\_TS.FW\TS.FW\TS.FW.Dac\Core\IDacBase.cs:줄 72
+   위치: TS.FW.Dac.Core.IDacBase..ctor(String connectionString) 파일 C:\000.Source\_TS.FW\TS.FW\TS.FW.Dac\Core\IDacBase.cs:줄 53
+   위치: TS.FW.Dac.Core.IDacBase`1..ctor(String connectionString) 파일 C:\000.Source\_TS.FW\TS.FW\TS.FW.Dac\Core\IDacBase.cs:줄 191
+   위치: TS.FW.Dac.Cfg.ConfigDac..ctor() 파일 C:\000.Source\_TS.FW\TS.FW\TS.FW.Dac.Cfg\Dac\ConfigDac.cs:줄 12
+   위치: TS.FW.Dac.Cfg.ConfigRTx.Upsert(String group, String name, Object value) 파일 C:\000.Source\_TS.FW\TS.FW\TS.FW.Dac.Cfg\Biz\ConfigRTx.cs:줄 19

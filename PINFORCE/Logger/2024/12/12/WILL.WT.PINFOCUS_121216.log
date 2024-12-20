@@ -1,0 +1,171 @@
+16:00:49.039 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:00:58.729 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:01:04.335 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:01:10.029 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:01:40.795 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:03:18.231 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:14:11.544 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:17:59.087 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:18:04.126 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:18:20.148 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:23:36.605 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:26:30.846 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:31:21.780 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:31:31.957 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__21.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:31:35.942 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__21.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:31:36.686 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__21.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:31:36.933 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__21.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:31:37.159 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__21.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:31:37.416 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__21.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:31:37.633 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__21.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:31:37.859 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__21.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:31:38.074 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__21.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:31:38.378 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__21.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:31:38.955 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__21.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:31:54.103 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:32:40.472 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:33:07.818 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 86
+16:33:08.629 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 86
+16:33:10.646 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:33:20.470 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:33:25.083 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 88
+16:33:35.509 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:33:43.685 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:34:09.351 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:34:13.725 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:34:22.665 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:35:11.398 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:35:23.106 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:36:08.593 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:36:15.435 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:36:25.091 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:36:38.930 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:36:45.874 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:36:53.516 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:37:03.532 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:37:20.447 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:37:28.257 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:37:37.380 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:37:44.988 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:38:19.830 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:38:37.467 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:38:47.245 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:38:53.952 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:39:00.466 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:39:09.896 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:39:19.904 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:41:24.636 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:41:31.944 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:43:27.739 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:43:30.861 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:45:22.444 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:45:26.211 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:46:54.785 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:47:02.519 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 91
+16:47:05.430 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 91
+16:47:05.762 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 91
+16:47:39.296 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:47:43.976 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:47:52.565 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 91
+16:49:01.884 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:49:06.251 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:49:13.280 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 91
+16:49:20.376 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:49:27.240 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:49:49.148 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:49:53.186 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:50:02.192 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:50:17.811 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:50:26.875 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:51:08.623 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:51:19.011 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>b__20_0() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 95
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 92
+16:51:27.226 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:53:29.723 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:53:44.170 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>b__20_0() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 93
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 90
+16:53:49.731 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>b__20_0() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 93
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 90
+16:53:56.716 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>b__20_0() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 93
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 90
+16:54:00.227 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:54:49.690 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:54:59.264 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>b__20_0() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 93
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 90
+16:54:59.820 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:55:09.603 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:55:25.456 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>b__20_0() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 93
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   위치: System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 90
+16:55:27.162 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:56:00.811 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:56:06.572 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:56:11.254 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:56:16.848 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:56:23.611 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:56:26.739 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:57:04.233 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:57:11.746 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:57:14.905 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:57:21.837 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:57:29.804 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:57:58.844 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:58:03.261 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:58:07.632 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:58:19.709 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:58:25.849 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:58:28.497 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:58:36.389 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:58:48.460 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:58:54.116 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:59:02.378 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:59:07.109 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:59:12.007 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\DashBoard\DashMainViewModel.cs:줄 89
+16:59:15.404 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 1.0.0.0) =====================
+16:59:23.747 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 1.0.0.0) =====================
+16:59:52.755 [E] DashMainViewModel(MoveNext)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.DashBoard.DashMainViewModel.<OnCommand>d__20.MoveNext()

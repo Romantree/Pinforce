@@ -1,0 +1,91 @@
+﻿[{FILENAME}View.xaml]
+View의 d:DataContext 는 ViewModel로 설정
+
+xmlns:vm="clr-namespace:{NAMESPACE}.ViewModels.Page.Config"
+d:DataContext="{d:DesignInstance vm:{VIEW_NAME}ViewModel}"
+
+(Binding Example)
+<!-- 입력 방법 -->
+<tc:ValueBtn Style="{StaticResource xValueBtn}"
+    Content="{Binding _Data._Value_1, StringFormat={}{0:f0} mm/s}"/>
+<!-- 사용 예시 -->
+<tc:ValueBtn Style="{StaticResource xValueBtn}"
+Content="{Binding MotionDataModel.ReadyPosMoveSpeed, StringFormat={}{0:f0} mm/s}"/>
+
+[{FILENAME}ViewModel.cs]
+ViewModels Folder 내에 정의
+
+public class DataViewModel : IConfigViewModel
+{
+	// 상단의 ContectControl Content로 Binding한 이름으로
+	public DataModel _Data_ { get; set; } = new DataModel("NAME");
+
+    // 상황에 따라 동작하는 메서드
+	public override void Show() {...}
+	protected override void OnCommand(object parameter) {...}
+
+    // DB R/W
+	private void Refresh(bool isSave = false)
+    {
+        try
+        {
+            // 저장 : DB.DataCopyEx(), 불러오기 : DB.DataCopy()
+            // (model, DB)
+            if (isSave) // 저장이면
+            {
+                DB.DataCopyEx(this._Data_, DB.{ConfigsFolder의 DB.cs}.valueParam);
+                // ex) DB.DataCopyEx(this._Data_, DB.dataDB.valueParam);
+            }
+            // 불러오기
+            DB.DataCopy(this._Data_, DB.{ConfigsFolder의 DB.cs}.valueParam);
+            // ex) DB.DataCopy(this._Data_, DB.dataDB.valueParam);
+        }
+        catch (Exception ex)
+        {
+            Logger.Write(this, ex);
+        }
+    }
+}
+
+[{FILENAME}Model.cs]
+Models Folder 내에 정의
+R/W 하고자 하는 값을 작성
+
+public class DataModel : DataModelBase
+{
+    public string Name { get; private set; }
+
+    public int Value_1 { get => this.GetValue<int>(); set => this.SetValue(value); }
+    public double Value_2 { get => this.GetValue<double>(); set => this.SetValue(value); }
+
+	// 생성자
+    public DataModel(string name) => this.Name = name; // ViewModel에서 입력한 "NAME"
+}
+
+[{FILEMANE}DB.cs]
+Configs Folder 내에 정의
+// 여기에는 DB에 저장할 전체 설정값을 정의한다.
+// 전체 Parameter DB 정의
+public class DataDB : IConfigDb
+{
+    public readonly ValueParam valueParam = new ValueParam();   
+}
+
+// 여기에는 아래의 인터페이스를 사용한 설정 파라미터를 정의한다.
+// Config Page의 Motion 속도 설정
+public class ValueParam : IData { }
+
+// 여기에는 설정 파라미터 생성을 위한 인터페이스를 정의한다.
+public abstract class IData : IConfigDb
+{
+    public int Value_1 { get => this.GetValueInt(); set => this.SetValue(value); }
+    public Double Value_2 { get => this.GetValueDouble(); set => this.SetValue(value); }
+}
+
+[AP.cs]
+public static class DB 에 사용할 DB 선언
+
+public static class DB
+{
+    public static DataDB dataDB { get; private set; }
+}

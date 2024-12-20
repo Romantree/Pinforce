@@ -1,0 +1,4 @@
+17:48:28.079 [E] ValueBtn(OnMouseDown)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 149
+17:48:28.748 [E] ValueBtn(OnMouseDown)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 149

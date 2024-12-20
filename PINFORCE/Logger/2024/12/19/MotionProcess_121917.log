@@ -1,0 +1,38 @@
+17:47:42.564 [I] MotionProcess(SetMsg)[18] : START
+17:47:42.729 [I] MotionProcess(SetMsg)[18] : Process 동작 1회
+17:47:42.806 [I] MotionProcess(SetMsg)[18] : Ready Position Move
+17:47:42.810 [I] MotionProcess(SetMsg)[18] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:42.980 [I] MotionProcess(SetMsg)[18] : Process Position Move
+17:47:42.980 [I] MotionProcess(SetMsg)[18] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:43.216 [I] MotionProcess(SetMsg)[18] : Process 동작 2회
+17:47:43.293 [I] MotionProcess(SetMsg)[18] : Ready Position Move
+17:47:43.293 [I] MotionProcess(SetMsg)[18] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:43.449 [I] MotionProcess(SetMsg)[18] : Process Position Move
+17:47:43.449 [I] MotionProcess(SetMsg)[18] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:43.680 [I] MotionProcess(SetMsg)[18] : Process 동작 3회
+17:47:43.758 [I] MotionProcess(SetMsg)[18] : Ready Position Move
+17:47:43.758 [I] MotionProcess(SetMsg)[18] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:43.916 [I] MotionProcess(SetMsg)[18] : Process Position Move
+17:47:43.916 [I] MotionProcess(SetMsg)[18] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:44.148 [I] MotionProcess(SetMsg)[18] : Ready Position Move
+17:47:44.148 [I] MotionProcess(SetMsg)[18] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:44.305 [I] MotionProcess(SetMsg)[18] : End
+17:47:54.010 [I] MotionProcess(SetMsg)[17] : START
+17:47:54.168 [I] MotionProcess(SetMsg)[17] : Process 동작 1회
+17:47:54.246 [I] MotionProcess(SetMsg)[17] : Ready Position Move
+17:47:54.246 [I] MotionProcess(SetMsg)[17] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:54.399 [I] MotionProcess(SetMsg)[17] : Process Position Move
+17:47:54.399 [I] MotionProcess(SetMsg)[17] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:54.634 [I] MotionProcess(SetMsg)[17] : Process 동작 2회
+17:47:54.712 [I] MotionProcess(SetMsg)[17] : Ready Position Move
+17:47:54.712 [I] MotionProcess(SetMsg)[17] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:54.868 [I] MotionProcess(SetMsg)[17] : Process Position Move
+17:47:54.868 [I] MotionProcess(SetMsg)[17] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:55.102 [I] MotionProcess(SetMsg)[17] : Process 동작 3회
+17:47:55.180 [I] MotionProcess(SetMsg)[17] : Ready Position Move
+17:47:55.181 [I] MotionProcess(SetMsg)[17] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:55.335 [I] MotionProcess(SetMsg)[17] : Process Position Move
+17:47:55.336 [I] MotionProcess(SetMsg)[17] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:55.570 [I] MotionProcess(SetMsg)[17] : Ready Position Move
+17:47:55.570 [I] MotionProcess(SetMsg)[17] : AXIS_Z Bypass : Cur:0.000mm Move:0.000mm
+17:47:55.727 [I] MotionProcess(SetMsg)[17] : End

@@ -1,0 +1,808 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\000.Source\\WILL.WT.PINFORCE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\views\\pages\\setup\\setupvisionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\views\\pages\\setup\\setupvisionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\views\\pages\\setup\\setupmotionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\views\\pages\\setup\\setupmotionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\process\\iprocesstimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\process\\iprocesstimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\process\\iprocesstimer.manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\process\\iprocesstimer.manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\process\\iprocesstimer.motion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\process\\iprocesstimer.motion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\process\\iprocesstimer.inout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\process\\iprocesstimer.inout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\process\\iprocesstimer.network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\process\\iprocesstimer.network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\process\\procstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\process\\procstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\process\\iunitprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\process\\iunitprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\viewmodels\\pages\\setup\\setupmotionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\viewmodels\\pages\\setup\\setupmotionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\viewmodels\\pages\\setup\\setuploadcellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\viewmodels\\pages\\setup\\setuploadcellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\models\\recipe\\autocontectrcpmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\models\\recipe\\autocontectrcpmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\viewmodels\\pages\\config\\cfgworkviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\viewmodels\\pages\\config\\cfgworkviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\viewmodels\\pages\\dashboard\\dashmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\viewmodels\\pages\\dashboard\\dashmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\views\\pages\\config\\cfgworkview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\views\\pages\\config\\cfgworkview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\models\\config\\motiondatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\models\\config\\motiondatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\viewmodels\\pages\\setup\\setupinoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\viewmodels\\pages\\setup\\setupinoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\views\\pages\\setup\\setupinoutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\views\\pages\\setup\\setupinoutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\views\\pages\\setup\\setuploadcellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\views\\pages\\setup\\setuploadcellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\views\\pages\\recipe\\rcpmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\views\\pages\\recipe\\rcpmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\views\\pages\\dashboard\\dashmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\views\\pages\\dashboard\\dashmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\viewmodels\\pages\\recipe\\rcpmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\viewmodels\\pages\\recipe\\rcpmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\viewmodels\\pages\\service\\svcmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\viewmodels\\pages\\service\\svcmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\viewmodels\\pages\\setup\\setupvisionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\viewmodels\\pages\\setup\\setupvisionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\viewmodels\\pages\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\viewmodels\\pages\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\viewmodels\\pages\\subpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\viewmodels\\pages\\subpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\ap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\ap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\eenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\eenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\models\\inout\\cylindermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\models\\inout\\cylindermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\models\\inout\\inoutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\models\\inout\\inoutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\models\\inout\\instatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\models\\inout\\instatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\models\\config\\timeoutdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\models\\config\\timeoutdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\models\\config\\loadcellrangedatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\models\\config\\loadcellrangedatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\models\\config\\delaydatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\models\\config\\delaydatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\models\\config\\limitdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\models\\config\\limitdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\models\\inout\\outcontrolmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\models\\inout\\outcontrolmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\controls\\motion\\newaxiscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\controls\\motion\\newaxiscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\controls\\motion\\motioncontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\controls\\motion\\motioncontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\views\\pages\\alarm\\alarmhistoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\views\\pages\\alarm\\alarmhistoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\views\\pages\\alarm\\alarmmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\views\\pages\\alarm\\alarmmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\ealarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\ealarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\managers\\procmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\managers\\procmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\process\\work\\main\\mainproc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\process\\work\\main\\mainproc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\process\\work\\iworkprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\process\\work\\iworkprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\views\\pages\\service\\svcmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\views\\pages\\service\\svcmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|c:\\000.source\\will.wt.pinforce\\will.wt.pinforce\\process\\work\\main\\mainstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4341A425-95CF-4C5E-814E-230A450F12C7}|WILL.WT.PINFORCE\\WILL.WT.PINFORCE.csproj|solutionrelative:will.wt.pinforce\\process\\work\\main\\mainstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProcessTimer.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IProcessTimer.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Process\\IProcessTimer.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IProcessTimer.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Process\\IProcessTimer.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:40:23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AutoContectRcpModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Recipe\\AutoContectRcpModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Models\\Recipe\\AutoContectRcpModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Recipe\\AutoContectRcpModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Models\\Recipe\\AutoContectRcpModel.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwEQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:36:58.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SetupMotionViewModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupMotionViewModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupMotionViewModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupMotionViewModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupMotionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:17:53.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SetupLoadcellViewModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupLoadcellViewModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupLoadcellViewModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupLoadcellViewModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupLoadcellViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:17:51.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProcessTimer.Manager.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IProcessTimer.Manager.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Process\\IProcessTimer.Manager.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IProcessTimer.Manager.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Process\\IProcessTimer.Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:12:57.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProcessTimer.Motion.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IProcessTimer.Motion.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Process\\IProcessTimer.Motion.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IProcessTimer.Motion.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Process\\IProcessTimer.Motion.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAnwFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:12:57.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProcessTimer.Network.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IProcessTimer.Network.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Process\\IProcessTimer.Network.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IProcessTimer.Network.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Process\\IProcessTimer.Network.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:12:56.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUnitProcess.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IUnitProcess.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Process\\IUnitProcess.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IUnitProcess.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Process\\IUnitProcess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:12:56.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProcStep.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\ProcStep.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Process\\ProcStep.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\ProcStep.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Process\\ProcStep.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAYwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:12:46.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SetupMotionView.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupMotionView.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupMotionView.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupMotionView.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupMotionView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:28:11.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SetupVisionView.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupVisionView.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupVisionView.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupVisionView.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupVisionView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:28:10.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashMainViewModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\DashBoard\\DashMainViewModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\ViewModels\\Pages\\DashBoard\\DashMainViewModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\DashBoard\\DashMainViewModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\ViewModels\\Pages\\DashBoard\\DashMainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:07:21.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CfgWorkView.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Config\\CfgWorkView.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Views\\Pages\\Config\\CfgWorkView.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Config\\CfgWorkView.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Views\\Pages\\Config\\CfgWorkView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:17:55.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProcessTimer.Inout.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IProcessTimer.Inout.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Process\\IProcessTimer.Inout.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\IProcessTimer.Inout.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Process\\IProcessTimer.Inout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:12:57.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MotionDataModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Config\\MotionDataModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Models\\Config\\MotionDataModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Config\\MotionDataModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Models\\Config\\MotionDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:32:23.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SetupInOutViewModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupInOutViewModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupInOutViewModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupInOutViewModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupInOutViewModel.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAADwv8wAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:17:52.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SetupInOutView.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupInOutView.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupInOutView.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupInOutView.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupInOutView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:18:00.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SetupLoadcellView.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupLoadcellView.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupLoadcellView.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupLoadcellView.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Views\\Pages\\Setup\\SetupLoadcellView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:28:07.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RcpMainView.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Recipe\\RcpMainView.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Views\\Pages\\Recipe\\RcpMainView.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Recipe\\RcpMainView.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Views\\Pages\\Recipe\\RcpMainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:35:01.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CfgWorkViewModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Config\\CfgWorkViewModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Config\\CfgWorkViewModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Config\\CfgWorkViewModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Config\\CfgWorkViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAzwCMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:28:01.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DashMainView.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\DashBoard\\DashMainView.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Views\\Pages\\DashBoard\\DashMainView.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\DashBoard\\DashMainView.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Views\\Pages\\DashBoard\\DashMainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:17:57.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RcpMainViewModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Recipe\\RcpMainViewModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Recipe\\RcpMainViewModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Recipe\\RcpMainViewModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Recipe\\RcpMainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:17:52.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SvcMainViewModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Service\\SvcMainViewModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Service\\SvcMainViewModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Service\\SvcMainViewModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Service\\SvcMainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:34:17.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainPage.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\MainPage.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\ViewModels\\Pages\\MainPage.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\MainPage.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\ViewModels\\Pages\\MainPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:34:10.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SubPage.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\SubPage.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\ViewModels\\Pages\\SubPage.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\SubPage.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\ViewModels\\Pages\\SubPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:34:10.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AP.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\AP.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\AP.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\AP.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\AP.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:33:53.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "eEnum.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\eEnum.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\eEnum.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\eEnum.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\eEnum.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwDQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:33:42.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CylinderModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\InOut\\CylinderModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Models\\InOut\\CylinderModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\InOut\\CylinderModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Models\\InOut\\CylinderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:32:22.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InOutModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\InOut\\InOutModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Models\\InOut\\InOutModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\InOut\\InOutModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Models\\InOut\\InOutModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:32:21.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "InStateModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\InOut\\InStateModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Models\\InOut\\InStateModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\InOut\\InStateModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Models\\InOut\\InStateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:32:19.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TimeoutDataModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Config\\TimeoutDataModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Models\\Config\\TimeoutDataModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Config\\TimeoutDataModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Models\\Config\\TimeoutDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:32:22.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SetupVisionViewModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupVisionViewModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupVisionViewModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupVisionViewModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\ViewModels\\Pages\\Setup\\SetupVisionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:17:53.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoadcellRangeDataModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Config\\LoadcellRangeDataModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Models\\Config\\LoadcellRangeDataModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Config\\LoadcellRangeDataModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Models\\Config\\LoadcellRangeDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:32:23.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DelayDataModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Config\\DelayDataModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Models\\Config\\DelayDataModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Config\\DelayDataModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Models\\Config\\DelayDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:32:24.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LimitDataModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Config\\LimitDataModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Models\\Config\\LimitDataModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\Config\\LimitDataModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Models\\Config\\LimitDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:32:23.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OutControlModel.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\InOut\\OutControlModel.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Models\\InOut\\OutControlModel.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Models\\InOut\\OutControlModel.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Models\\InOut\\OutControlModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:32:20.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NewAxisControl.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Controls\\Motion\\NewAxisControl.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Controls\\Motion\\NewAxisControl.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Controls\\Motion\\NewAxisControl.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Controls\\Motion\\NewAxisControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:28:41.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MotionControl.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Controls\\Motion\\MotionControl.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Controls\\Motion\\MotionControl.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Controls\\Motion\\MotionControl.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Controls\\Motion\\MotionControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:28:22.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AlarmHistoryView.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Alarm\\AlarmHistoryView.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Views\\Pages\\Alarm\\AlarmHistoryView.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Alarm\\AlarmHistoryView.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Views\\Pages\\Alarm\\AlarmHistoryView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:26:10.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProcManager.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Managers\\ProcManager.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Managers\\ProcManager.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Managers\\ProcManager.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Managers\\ProcManager.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAewDcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:09:20.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IWorkProcess.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\Work\\IWorkProcess.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Process\\Work\\IWorkProcess.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\Work\\IWorkProcess.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Process\\Work\\IWorkProcess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:02:28.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MainProc.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\Work\\Main\\MainProc.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Process\\Work\\Main\\MainProc.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\Work\\Main\\MainProc.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Process\\Work\\Main\\MainProc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:02:01.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SvcMainView.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Service\\SvcMainView.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Views\\Pages\\Service\\SvcMainView.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Service\\SvcMainView.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Views\\Pages\\Service\\SvcMainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:17:59.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "eAlarm.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\eAlarm.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\eAlarm.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\eAlarm.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\eAlarm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:25:34.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AlarmMainView.xaml",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Alarm\\AlarmMainView.xaml",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Views\\Pages\\Alarm\\AlarmMainView.xaml",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Views\\Pages\\Alarm\\AlarmMainView.xaml",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Views\\Pages\\Alarm\\AlarmMainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T09:26:09.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MainStep.cs",
+              "DocumentMoniker": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\Work\\Main\\MainStep.cs",
+              "RelativeDocumentMoniker": "WILL.WT.PINFORCE\\Process\\Work\\Main\\MainStep.cs",
+              "ToolTip": "C:\\000.Source\\WILL.WT.PINFORCE\\WILL.WT.PINFORCE\\Process\\Work\\Main\\MainStep.cs",
+              "RelativeToolTip": "WILL.WT.PINFORCE\\Process\\Work\\Main\\MainStep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:02:01.104Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

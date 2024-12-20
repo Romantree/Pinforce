@@ -1,0 +1,47 @@
+09:17:53.540 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 87.263 MB
+09:17:54.803 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 212.361 MB
+09:17:57.264 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 234.086 MB
+09:17:58.493 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 266.395 MB
+09:18:14.496 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 324.593 MB
+09:18:18.170 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 361.816 MB
+09:18:19.413 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 380.563 MB
+09:18:23.077 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 402.344 MB
+09:20:05.228 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 104.388 MB
+09:20:06.505 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 259.301 MB
+09:20:07.745 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 336.785 MB
+09:20:21.143 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 107.077 MB
+09:20:22.367 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 299.628 MB
+09:20:23.581 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 399.241 MB
+09:20:24.816 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 404.548 MB
+09:20:45.769 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 101.753 MB
+09:20:47.032 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 234.820 MB
+09:20:48.214 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 360.571 MB
+09:20:49.408 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 397.359 MB
+09:21:16.702 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 94.979 MB
+09:21:17.958 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 258.417 MB
+09:21:19.122 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 360.729 MB
+09:21:20.338 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 395.648 MB
+09:21:23.964 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 401.439 MB
+09:49:33.900 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 89.014 MB
+09:49:35.160 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 207.687 MB
+09:49:40.188 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 257.198 MB
+09:49:41.429 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 371.309 MB
+09:49:45.546 [E] ValueBtn(OnMouseDown)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+09:49:46.214 [E] ValueBtn(OnMouseDown)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+09:49:46.415 [E] ValueBtn(OnMouseDown)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Controls.ValueBtn.OnMouseDown(MouseButtonEventArgs e) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Controls\ValueBtn.xaml.cs:줄 151
+09:49:47.638 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 386.527 MB
+09:49:48.902 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 414.067 MB
+09:50:22.433 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 431.355 MB
+09:50:51.997 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 450.223 MB
+09:50:53.225 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 475.054 MB
+09:58:06.120 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 95.471 MB
+09:58:07.361 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 262.012 MB
+09:58:08.601 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 344.235 MB
+09:58:09.787 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 357.714 MB
+09:58:11.006 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 404.543 MB
+09:58:46.890 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 104.770 MB
+09:58:48.124 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 239.982 MB
+09:58:49.384 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 314.636 MB

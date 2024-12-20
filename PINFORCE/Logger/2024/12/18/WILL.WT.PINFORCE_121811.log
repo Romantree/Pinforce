@@ -1,0 +1,154 @@
+11:19:28.754 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:20:06.048 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:30:09.410 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:30:20.146 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:30:27.760 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:30:43.450 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:30:46.071 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:30:50.135 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화 완료
+11:30:53.309 [E] ProcStep`1(ExcuteProcess)[17] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 59
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+입력 문자열의 형식이 잘못되었습니다. => System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 59
+11:35:40.334 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화 완료
+11:46:50.698 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:55:20.027 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:56:16.436 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:56:19.111 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:56:24.079 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 하시겠습니까?
+11:56:30.083 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 하시겠습니까?
+11:56:34.390 [E] ProcStep`1(ExcuteProcess)[17] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+입력 문자열의 형식이 잘못되었습니다. => System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+11:58:09.506 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================
+11:58:12.314 [I] MainViewModel(ProgramStart)[1] : 프로그램 시작(v 0.0.4347.1) =====================
+11:58:17.245 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 하시겠습니까?
+11:58:19.243 [E] ProcStep`1(ExcuteProcess)[17] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+입력 문자열의 형식이 잘못되었습니다. => System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+11:58:31.988 [E] ProcStep`1(ExcuteProcess)[17] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+입력 문자열의 형식이 잘못되었습니다. => System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+11:59:15.001 [E] MainViewModel(System_OnInterlockCheckEvent)[1] : 초기화를 하시겠습니까?
+11:59:17.628 [E] ProcStep`1(ExcuteProcess)[17] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+입력 문자열의 형식이 잘못되었습니다. => System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+11:59:22.437 [E] ProcStep`1(ExcuteProcess)[17] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: WILL.WT.PINFORCE.Process.ProcStep`1.ExcuteProcess(Object obj, Object[] arg) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\ProcStep.cs:줄 66
+입력 문자열의 형식이 잘못되었습니다. => System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.Text.StringBuilder.FormatError()
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object[] args)
+   위치: WILL.WT.PINFORCE.Process.IProcessTimer.SetMsg(String format, Object[] args) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\IProcessTimer.cs:줄 42
+   위치: WILL.WT.PINFORCE.Process.Work.MotionProcess.COUNT_SETTTING() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Process\Work\MotionProcess.cs:줄 106
+11:59:25.427 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+11:59:25.437 [E] DB(DataCopy)[1] : 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다. => System.ArgumentException: 'System.Double' 형식의 개체를 'System.Int32' 형식으로 변환할 수 없습니다.
+   위치: System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   위치: System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   위치: System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   위치: WILL.WT.PINFORCE.DB.DataCopy(Object a, Object b) 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\AP.cs:줄 106
+11:59:54.022 [I] MainViewModel(OnCommand)[1] : 프로그램 종료(v 0.0.4347.1) =====================

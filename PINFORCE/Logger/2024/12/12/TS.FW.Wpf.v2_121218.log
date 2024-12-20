@@ -1,0 +1,63 @@
+18:14:27.346 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 99.036 MB
+18:14:28.599 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 218.974 MB
+18:14:33.632 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 238.374 MB
+18:14:34.886 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 315.724 MB
+18:14:37.369 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 327.907 MB
+18:14:39.905 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 361.264 MB
+18:14:42.399 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 379.855 MB
+18:14:55.878 [E] ProgramHelper(TrCollector_DoWork)[14] : 메모리 95.611 MB
+18:14:57.106 [E] ProgramHelper(TrCollector_DoWork)[14] : 메모리 213.812 MB
+18:14:58.258 [E] ProgramHelper(TrCollector_DoWork)[14] : 메모리 235.346 MB
+18:15:00.569 [E] ProgramHelper(TrCollector_DoWork)[14] : 메모리 271.078 MB
+18:16:23.305 [E] ProgramHelper(TrCollector_DoWork)[14] : 메모리 394.811 MB
+18:16:24.462 [E] ProgramHelper(TrCollector_DoWork)[14] : 메모리 451.154 MB
+18:16:53.010 [E] PgDashViewModel(Init)[1] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.MissingMethodException: 이 개체에 대해 매개 변수가 없는 생성자가 정의되지 않았습니다.
+   위치: System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   위치: System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   위치: System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   위치: System.Activator.CreateInstance(Type type)
+   위치: TS.FW.Wpf.v2.Subscribe.IPageViewModel.ToPageViewList[T]() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IPageViewModel.cs:줄 61
+   위치: TS.FW.Wpf.v2.Subscribe.MainPageSelecter`1.Init() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\MainPageSelecter.cs:줄 16
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: TS.FW.Wpf.v2.Subscribe.IMainPageViewModel.MethodCall(String name) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IMainPageViewModel.cs:줄 58
+   위치: TS.FW.Wpf.v2.Subscribe.IMainPageViewModel.Init() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IMainPageViewModel.cs:줄 13
+이 개체에 대해 매개 변수가 없는 생성자가 정의되지 않았습니다. => System.MissingMethodException: 이 개체에 대해 매개 변수가 없는 생성자가 정의되지 않았습니다.
+   위치: System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   위치: System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   위치: System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   위치: System.Activator.CreateInstance(Type type)
+   위치: TS.FW.Wpf.v2.Subscribe.IPageViewModel.ToPageViewList[T]() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IPageViewModel.cs:줄 61
+   위치: TS.FW.Wpf.v2.Subscribe.MainPageSelecter`1.Init() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\MainPageSelecter.cs:줄 16
+18:16:53.485 [E] MainPageSelecter`1(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Subscribe.MainPageSelecter`1.Show() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\MainPageSelecter.cs:줄 30
+18:16:54.065 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 108.825 MB
+18:16:55.313 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 152.973 MB
+18:17:00.435 [E] MainPageSelecter`1(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Subscribe.MainPageSelecter`1.Show() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\MainPageSelecter.cs:줄 30
+18:17:01.547 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 235.661 MB
+18:17:25.219 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 103.105 MB
+18:17:26.459 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 219.053 MB
+18:17:27.666 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 292.589 MB
+18:17:28.910 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 368.800 MB
+18:17:30.178 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 377.240 MB
+18:17:40.267 [E] ProgramHelper(TrCollector_DoWork)[14] : 메모리 92.454 MB
+18:17:41.484 [E] ProgramHelper(TrCollector_DoWork)[14] : 메모리 209.693 MB
+18:17:44.326 [E] ProgramHelper(TrCollector_DoWork)[14] : 메모리 353.754 MB
+18:18:01.034 [E] ProgramHelper(TrCollector_DoWork)[14] : 메모리 394.648 MB
+18:19:26.947 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 104.175 MB
+18:19:28.186 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 218.055 MB
+18:19:30.734 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 227.425 MB
+18:19:31.945 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 316.437 MB
+18:19:33.192 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 351.361 MB
+18:30:03.247 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 105.283 MB
+18:30:04.471 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 218.885 MB
+18:30:05.717 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 324.048 MB
+18:30:06.942 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 346.372 MB
+18:30:10.643 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 351.178 MB
+18:30:11.811 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 388.631 MB
+18:30:26.443 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 415.260 MB
+18:30:27.646 [E] ProgramHelper(TrCollector_DoWork)[10] : 메모리 429.251 MB

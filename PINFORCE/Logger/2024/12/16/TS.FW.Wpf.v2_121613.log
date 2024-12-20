@@ -1,0 +1,93 @@
+13:30:34.125 [E] PgConfigViewModel(Init)[1] : 호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Windows.Markup.XamlParseException: '속성 'System.Windows.FrameworkElement.Style' 설정에서 예외가 throw되었습니다.' 줄 번호 '100' 및 줄 위치 '30' ---> System.InvalidOperationException: 'ValueBtn' TargetType이 'EventBtn' 요소의 형식과 일치하지 않습니다.
+   위치: System.Windows.Style.CheckTargetType(Object element)
+   위치: System.Windows.StyleHelper.UpdateStyleCache(FrameworkElement fe, FrameworkContentElement fce, Style oldStyle, Style newStyle, Style& styleCache)
+   위치: System.Windows.FrameworkElement.OnStyleChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   위치: System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   위치: System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   위치: System.Windows.Baml2006.WpfKnownMemberInvoker.SetValue(Object instance, Object value)
+   위치: MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue(Object inst, XamlMember property, Object value)
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Windows.Markup.XamlReader.RewrapException(Exception e, IXamlLineInfo lineInfo, Uri baseUri)
+   위치: System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   위치: System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   위치: System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   위치: WILL.WT.PINFORCE.Views.Pages.Config.CfgWorkView.InitializeComponent() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Pages\Config\CfgWorkView.xaml:줄 1
+   위치: WILL.WT.PINFORCE.Views.Pages.Config.CfgWorkView..ctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Pages\Config\CfgWorkView.xaml.cs:줄 25
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.Config.CfgWorkViewModel..ctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\Config\CfgWorkViewModel.cs:줄 20
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   위치: System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   위치: System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   위치: System.Activator.CreateInstance(Type type)
+   위치: TS.FW.Wpf.v2.Subscribe.IPageViewModel.ToPageViewList[T]() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IPageViewModel.cs:줄 61
+   위치: TS.FW.Wpf.v2.Subscribe.MainPageSelecter`1.Init() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\MainPageSelecter.cs:줄 16
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   위치: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   위치: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   위치: System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   위치: TS.FW.Wpf.v2.Subscribe.IMainPageViewModel.MethodCall(String name) 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IMainPageViewModel.cs:줄 58
+   위치: TS.FW.Wpf.v2.Subscribe.IMainPageViewModel.Init() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IMainPageViewModel.cs:줄 13
+호출 대상이 예외를 Throw했습니다. => System.Reflection.TargetInvocationException: 호출 대상이 예외를 Throw했습니다. ---> System.Windows.Markup.XamlParseException: '속성 'System.Windows.FrameworkElement.Style' 설정에서 예외가 throw되었습니다.' 줄 번호 '100' 및 줄 위치 '30' ---> System.InvalidOperationException: 'ValueBtn' TargetType이 'EventBtn' 요소의 형식과 일치하지 않습니다.
+   위치: System.Windows.Style.CheckTargetType(Object element)
+   위치: System.Windows.StyleHelper.UpdateStyleCache(FrameworkElement fe, FrameworkContentElement fce, Style oldStyle, Style newStyle, Style& styleCache)
+   위치: System.Windows.FrameworkElement.OnStyleChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   위치: System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   위치: System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   위치: System.Windows.Baml2006.WpfKnownMemberInvoker.SetValue(Object instance, Object value)
+   위치: MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue(Object inst, XamlMember property, Object value)
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Windows.Markup.XamlReader.RewrapException(Exception e, IXamlLineInfo lineInfo, Uri baseUri)
+   위치: System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   위치: System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   위치: System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   위치: WILL.WT.PINFORCE.Views.Pages.Config.CfgWorkView.InitializeComponent() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Pages\Config\CfgWorkView.xaml:줄 1
+   위치: WILL.WT.PINFORCE.Views.Pages.Config.CfgWorkView..ctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Pages\Config\CfgWorkView.xaml.cs:줄 25
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.Config.CfgWorkViewModel..ctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\Config\CfgWorkViewModel.cs:줄 20
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   위치: System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   위치: System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   위치: System.Activator.CreateInstance(Type type)
+   위치: TS.FW.Wpf.v2.Subscribe.IPageViewModel.ToPageViewList[T]() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\IPageViewModel.cs:줄 61
+   위치: TS.FW.Wpf.v2.Subscribe.MainPageSelecter`1.Init() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\MainPageSelecter.cs:줄 16
+'속성 'System.Windows.FrameworkElement.Style' 설정에서 예외가 throw되었습니다.' 줄 번호 '100' 및 줄 위치 '30' => System.Windows.Markup.XamlParseException: '속성 'System.Windows.FrameworkElement.Style' 설정에서 예외가 throw되었습니다.' 줄 번호 '100' 및 줄 위치 '30' ---> System.InvalidOperationException: 'ValueBtn' TargetType이 'EventBtn' 요소의 형식과 일치하지 않습니다.
+   위치: System.Windows.Style.CheckTargetType(Object element)
+   위치: System.Windows.StyleHelper.UpdateStyleCache(FrameworkElement fe, FrameworkContentElement fce, Style oldStyle, Style newStyle, Style& styleCache)
+   위치: System.Windows.FrameworkElement.OnStyleChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   위치: System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   위치: System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   위치: System.Windows.Baml2006.WpfKnownMemberInvoker.SetValue(Object instance, Object value)
+   위치: MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue(Object inst, XamlMember property, Object value)
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Windows.Markup.XamlReader.RewrapException(Exception e, IXamlLineInfo lineInfo, Uri baseUri)
+   위치: System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   위치: System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   위치: System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   위치: WILL.WT.PINFORCE.Views.Pages.Config.CfgWorkView.InitializeComponent() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Pages\Config\CfgWorkView.xaml:줄 1
+   위치: WILL.WT.PINFORCE.Views.Pages.Config.CfgWorkView..ctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Pages\Config\CfgWorkView.xaml.cs:줄 25
+   위치: WILL.WT.PINFORCE.ViewModels.Pages.Config.CfgWorkViewModel..ctor() 파일 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\ViewModels\Pages\Config\CfgWorkViewModel.cs:줄 20
+'ValueBtn' TargetType이 'EventBtn' 요소의 형식과 일치하지 않습니다. => System.InvalidOperationException: 'ValueBtn' TargetType이 'EventBtn' 요소의 형식과 일치하지 않습니다.
+   위치: System.Windows.Style.CheckTargetType(Object element)
+   위치: System.Windows.StyleHelper.UpdateStyleCache(FrameworkElement fe, FrameworkContentElement fce, Style oldStyle, Style newStyle, Style& styleCache)
+   위치: System.Windows.FrameworkElement.OnStyleChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   위치: System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   위치: System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   위치: System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   위치: System.Windows.Baml2006.WpfKnownMemberInvoker.SetValue(Object instance, Object value)
+   위치: MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue(Object inst, XamlMember property, Object value)
+13:30:38.771 [E] MainPageSelecter`1(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Subscribe.MainPageSelecter`1.Show() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\MainPageSelecter.cs:줄 30
+13:30:42.164 [E] MainPageSelecter`1(Show)[1] : 개체 참조가 개체의 인스턴스로 설정되지 않았습니다. => System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: TS.FW.Wpf.v2.Subscribe.MainPageSelecter`1.Show() 파일 C:\000.Source\TS.FW\TS.FW\TS.FW.Wpf.v2\Subscribe\MainPageSelecter.cs:줄 30
