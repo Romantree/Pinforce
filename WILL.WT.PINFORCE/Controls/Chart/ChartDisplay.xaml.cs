@@ -81,9 +81,11 @@ namespace WILL.WT.PINFORCE.Controls.Chart
             ChartData = new ChartDataList();
 
             // 샘플 데이터 추가 (테스트용)
+            /*
             ChartData.AddValue(1, 10, 15);
             ChartData.AddValue(2, 20, 25);
             ChartData.AddValue(3, 30, 35);
+            */
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

@@ -27,10 +27,8 @@ namespace WILL.WT.PINFORCE.Configs
         public double JogLowSpeed { get => this.GetValueDouble(); set => this.SetValue(value); }
         public double JogMidSpeed { get => this.GetValueDouble(); set => this.SetValue(value); }
         public double JogHighSpeed { get => this.GetValueDouble(); set => this.SetValue(value); }
-        public double HomeSpeed { get => this.GetValueDouble(); set => this.SetValue(value); }
-        public double InitSpeed { get => this.GetValueDouble(); set => this.SetValue(value); }
 
         // 속도 기준값
-        public int RefSpeed { get => this.GetValueInt(); set => this.SetValue(value); }
+        public double RefSpeed { get => this.GetValueDouble(); set => this.SetValue(value); }
     }
 }

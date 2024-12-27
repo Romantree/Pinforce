@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\App.xaml
-38254600473
+371364575179
 71509345742
-114-1271236757
+109975675994
 39-831290226
-Controls\Chart\ChartDisplay.xaml;Controls\Motion\SpeedSetting.xaml;Controls\Motion\NewAxisControl.xaml;Controls\Motion\AxisControl.xaml;Controls\Motion\AxisList.xaml;Controls\Motion\MotionControl.xaml;Controls\Motion\SoftwareLimit.xaml;Controls\Motion\SvcAxisList.xaml;Controls\RcpStage.xaml;Controls\Vision\VisionDisplay.xaml;Resources\Brushs.xaml;Resources\Buttons.xaml;Resources\ColorData.xaml;Resources\Converters.xaml;Resources\DataGrid.xaml;Resources\Icons.xaml;Resources\ScrollViewer.xaml;Resources\TextBlock.xaml;Resources\Windows.xaml;Test.xaml;Views\MainView.xaml;Views\Pages\Alarm\AlarmHistoryView.xaml;Views\Pages\Alarm\AlarmMainView.xaml;Views\Pages\Alarm\AlarmSettingView.xaml;Views\Pages\Config\CfgWorkView.xaml;Views\Pages\DashBoard\DashMainView.xaml;Views\Pages\MainPageAppendView.xaml;Views\Pages\MainPageView.xaml;Views\Pages\Recipe\RcpMainView.xaml;Views\Pages\Service\SvcMainView.xaml;Views\Pages\Setup\SetupInOutView.xaml;Views\Pages\Setup\SetupLoadcellView.xaml;Views\Pages\Setup\SetupMotionView.xaml;Views\Pages\Setup\SetupVisionView.xaml;Views\Pages\Utility\UtLogFileView.xaml;Views\Pages\Utility\UtUserView.xaml;Views\Win\RcpSelectView.xaml;Views\Win\SetupJogSpdView.xaml;
+Controls\Chart\ChartDisplay.xaml;Controls\Motion\SpeedSetting.xaml;Controls\Motion\NewAxisControl.xaml;Controls\Motion\AxisControl.xaml;Controls\Motion\AxisList.xaml;Controls\Motion\MotionControl.xaml;Controls\Motion\SoftwareLimit.xaml;Controls\Motion\SvcAxisList.xaml;Controls\RcpStage.xaml;Controls\Vision\VisionDisplay.xaml;Resources\Brushs.xaml;Resources\Buttons.xaml;Resources\ColorData.xaml;Resources\Converters.xaml;Resources\DataGrid.xaml;Resources\Icons.xaml;Resources\ScrollViewer.xaml;Resources\TextBlock.xaml;Resources\Windows.xaml;Views\MainView.xaml;Views\Pages\Alarm\AlarmHistoryView.xaml;Views\Pages\Alarm\AlarmMainView.xaml;Views\Pages\Alarm\AlarmSettingView.xaml;Views\Pages\Config\CfgWorkView.xaml;Views\Pages\DashBoard\DashMainView.xaml;Views\Pages\MainPageAppendView.xaml;Views\Pages\MainPageView.xaml;Views\Pages\Recipe\RcpMainView.xaml;Views\Pages\Service\SvcMainView.xaml;Views\Pages\Setup\SetupInOutView.xaml;Views\Pages\Setup\SetupLoadcellView.xaml;Views\Pages\Setup\SetupMotionView.xaml;Views\Pages\Setup\SetupVisionView.xaml;Views\Pages\Utility\UtLogFileView.xaml;Views\Pages\Utility\UtUserView.xaml;Views\Win\RcpSelectView.xaml;Views\Win\VisionPopupView.xaml;
 
 False
 

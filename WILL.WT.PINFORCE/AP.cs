@@ -74,7 +74,7 @@ namespace WILL.WT.PINFORCE
         public static WorkParamDB WorkParam { get; private set; }
 
         public static MotionDB Motion { get; private set; }
-        public static LoadcellDB Loadcell { get; private set; }
+        public static VisionDB Vision { get; private set; }
 
         public static void LoadDatabase()
         {
@@ -87,7 +87,7 @@ namespace WILL.WT.PINFORCE
             Network = new NetworkDB();
             WorkParam = new WorkParamDB();
             Motion = new MotionDB();
-            Loadcell = new LoadcellDB();
+            Vision = new VisionDB();
         }
 
         public static void DataCopy(object a, object b)

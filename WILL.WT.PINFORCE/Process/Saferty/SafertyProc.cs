@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using TS.FW;
+using WILL.WT.PINFORCE.Models.Setup;
 
 namespace WILL.WT.PINFORCE.Process.Saferty
 {
@@ -10,12 +12,15 @@ namespace WILL.WT.PINFORCE.Process.Saferty
 
         public SafertyProc() : base(false) { }
 
+        public LoadcellModel LoadcellModel_1 { get; set; }
+        public LoadcellModel LoadcellModel_2 { get; set; }
+
         public StepResult CHECK()
         {
             MOT_SERVO();
             MOT_ALRAM();
             TOWER();
-            Loadcell();
+            LOADCELL();
 
             return StepResult.Pending;
         }
@@ -93,11 +98,27 @@ namespace WILL.WT.PINFORCE.Process.Saferty
             }
         }
 
-        private void Loadcell()
+        private void LOADCELL()
         {
             try
             {
-                if (AP.Proc.Main.IsBusy == false) return;
+                if (LoadcellModel_1 == null)
+                    LoadcellModel_1 = new LoadcellModel(true);
+                if (LoadcellModel_2 == null)
+                    LoadcellModel_2 = new LoadcellModel(false);
+
+                if (LoadcellModel_1 != null)
+                {
+                    LoadcellModel_1.Update();
+                    if (LoadcellModel_1.Data > DB.WorkParam.limit.LimitForce)
+                        this.AlarmPost(eAlarm.LOADCELL_01_OVERWEIGHT);
+                }
+                if (LoadcellModel_2 != null)
+                {
+                    LoadcellModel_2.Update();
+                    if (LoadcellModel_2.Data > DB.WorkParam.limit.LimitForce)
+                        this.AlarmPost(eAlarm.LOADCELL_02_OVERWEIGHT);
+                }
             }
             catch (Exception ex)
             {

@@ -29,7 +29,6 @@ C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Controls\Motion\Softwa
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Controls\Motion\SvcAxisList.g.cs
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Controls\RcpStage.g.cs
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Controls\Vision\VisionDisplay.g.cs
-C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Test.g.cs
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\MainView.g.cs
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Pages\Alarm\AlarmHistoryView.g.cs
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Pages\Alarm\AlarmMainView.g.cs
@@ -47,7 +46,6 @@ C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Pages\Setup\Setu
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Pages\Utility\UtLogFileView.g.cs
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Pages\Utility\UtUserView.g.cs
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Win\RcpSelectView.g.cs
-C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Win\SetupJogSpdView.g.cs
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\App.g.cs
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\WILL.WT.PINFORCE_Content.g.cs
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\GeneratedInternalTypeHelper.g.cs
@@ -65,7 +63,6 @@ C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Controls\Motion\SvcAxi
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Controls\RcpStage.baml
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Controls\Vision\VisionDisplay.baml
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Resources\Windows.baml
-C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Test.baml
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\MainView.baml
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Pages\Alarm\AlarmHistoryView.baml
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Pages\Alarm\AlarmMainView.baml
@@ -83,7 +80,6 @@ C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Pages\Setup\Setu
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Pages\Utility\UtLogFileView.baml
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Pages\Utility\UtUserView.baml
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Win\RcpSelectView.baml
-C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Win\SetupJogSpdView.baml
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\WILL.WT.PINFORCE.g.resources
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\WILL.WT.PINFORCE.Properties.Resources.resources
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\WILL.WT.PINFORCE.csproj.GenerateResource.cache
@@ -91,3 +87,5 @@ C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\WILL.WT.PINFORCE.cspro
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\WILL.WT..D4CF883D.Up2Date
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\WILL.WT.PINFORCE.exe
 C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\WILL.WT.PINFORCE.pdb
+C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Win\VisionPopupView.g.cs
+C:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\obj\Debug\Views\Win\VisionPopupView.baml

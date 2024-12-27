@@ -22,7 +22,7 @@ namespace WILL.WT.PINFORCE.Managers
     {
         private const string ROOT = @"..\Recipe";
 
-        public AutoContectRcpModel AutoContect { get; private set; }
+        public AutoContactRcpModel AutoContact { get; private set; }
 
         public Response NewRecipe(RecipeType type, string name)
         {
@@ -44,7 +44,7 @@ namespace WILL.WT.PINFORCE.Managers
                         break;
                     case RecipeType.AUTO_CONTACT:
                         {
-                            model = new AutoContectRcpModel()
+                            model = new AutoContactRcpModel()
                             {
                                 No = no,
                                 Name = name,
@@ -82,7 +82,7 @@ namespace WILL.WT.PINFORCE.Managers
         {
             try
             {
-                var rcp = this.GetRecipe(RecipeType.AUTO_CONTACT, 0) as AutoContectRcpModel;
+                var rcp = this.GetRecipe(RecipeType.AUTO_CONTACT, 0) as AutoContactRcpModel;
                 if (rcp == null)
                 {
                     var res = NewRecipe(RecipeType.AUTO_CONTACT, "AutoContact");
@@ -92,12 +92,12 @@ namespace WILL.WT.PINFORCE.Managers
                     }
                     else
                     {
-                        AutoContect = this.GetRecipe(RecipeType.AUTO_CONTACT, 0) as AutoContectRcpModel;
+                        AutoContact = this.GetRecipe(RecipeType.AUTO_CONTACT, 0) as AutoContactRcpModel;
                     }
                 }
                 else
                 {
-                    AutoContect = rcp;
+                    AutoContact = rcp;
                 }
 
             }

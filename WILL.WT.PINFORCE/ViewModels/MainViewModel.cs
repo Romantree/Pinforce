@@ -10,6 +10,9 @@ using TS.FW.Wpf.v2.Core;
 using TS.FW.Wpf.v2.Helpers;
 using TS.FW.Wpf.v2.Subscribe;
 using TS.FW;
+using WILL.WT.PINFORCE.Models.Setup;
+using System.Drawing;
+using System.Windows.Media;
 
 namespace WILL.WT.PINFORCE.ViewModels
 {
@@ -56,6 +59,9 @@ namespace WILL.WT.PINFORCE.ViewModels
 
         public IMainPageViewModel SelectedMenu { get => this.GetValue<IMainPageViewModel>(); set => this.SetValue(value); }
 
+        public LoadcellModel LoadcellModel_1 { get; set; }
+        public LoadcellModel LoadcellModel_2 { get; set; }
+
         private void trUpdate_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
             try
@@ -63,6 +69,23 @@ namespace WILL.WT.PINFORCE.ViewModels
                 this.Alarm = AP.Alarm.IsAlarm;
 
                 this.TowerLamp.Update();
+
+                if (LoadcellModel_1 == null)
+                    LoadcellModel_1 = new LoadcellModel(true);
+                if (LoadcellModel_2 == null)
+                    LoadcellModel_2 = new LoadcellModel(false);
+
+                if (LoadcellModel_1 != null)
+                {
+                    LoadcellModel_1.Update();
+                }
+                if (LoadcellModel_2 != null)
+                {
+                    LoadcellModel_2.Update();
+                }
+
+                // 작동중이면 Button Disable
+                // this.IsEnable = !AP.Proc.IsBusy;
             }
             catch (Exception ex)
             {
@@ -195,7 +218,7 @@ namespace WILL.WT.PINFORCE.ViewModels
             StartControl.SetData("Network 초기화", AP.Net.Start);
             StartControl.SetData("Memory 수집 시작", ProgramHelper.Ins.Start);
             StartControl.SetData("프로그램 메뉴 생성", InitMenu);
-            StartControl.SetData("Vision 초기화", AP.Cam.InitCamera);
+            //StartControl.SetData("Vision 초기화", AP.Cam.InitCamera);
             StartControl.SetData("프로그램 실행", ProcessStart);
 
             StartControl.Start(ProgramCmp);

@@ -21,6 +21,21 @@ namespace WILL.WT.PINFORCE.Models.Axis
 
         public JogSpeedType JogSpeed { get => this.GetValue<JogSpeedType>(); set => this.SetValue(value); }
 
+        // 필드를 속성으로 변경
+        private int _selectedJogSpeed = 0;
+        public int SelectedJogSpeed
+        {
+            get => _selectedJogSpeed;
+            set
+            {
+                if (_selectedJogSpeed != value)
+                {
+                    _selectedJogSpeed = value;
+                    OnPropertyChanged(nameof(SelectedJogSpeed));  // INotifyPropertyChanged 호출
+                }
+            }
+        }
+
         public AxisModel(eAxis type)
         {
             this._axis = AP.Device[type];
@@ -179,8 +194,12 @@ namespace WILL.WT.PINFORCE.Models.Axis
                 if (this.MoveCheck()) return;
 
                 // 계수 테스트
-                double spd = State.Speed * this.speed.JogLowSpeed * 0.01;
-                Debug.WriteLine(spd);
+                // double spd = State.Speed * this.speed.JogLowSpeed * 0.01;
+                double jogSpd = DB.Motion.speed.RefSpeed;
+                jogSpd =    (SelectedJogSpeed == (int)JogSpeedType.High) ? jogSpd * DB.Motion.speed.JogHighSpeed :
+                            (SelectedJogSpeed == (int)JogSpeedType.Middle) ? jogSpd * DB.Motion.speed.JogMidSpeed : jogSpd * DB.Motion.speed.JogLowSpeed;
+                jogSpd /= 100; // % 로 변환
+                Debug.WriteLine(jogSpd);
                 switch (param as string)
                 {
                     case "HOME":
@@ -192,28 +211,28 @@ namespace WILL.WT.PINFORCE.Models.Axis
                         {
                             if (this.PMoveCheck()) return;
 
-                            _axis.MoveVEL(eDirection.Plus, spd, State.Speed * 4, State.Speed * 4);
+                            _axis.MoveVEL(eDirection.Plus, jogSpd, State.Speed * 4, State.Speed * 4);
                         }
                         break;
                     case "JOG-":
                         {
                             if (this.NMoveCheck()) return;
 
-                            _axis.MoveVEL(eDirection.Minus, spd, State.Speed * 4, State.Speed * 4);
+                            _axis.MoveVEL(eDirection.Minus, jogSpd, State.Speed * 4, State.Speed * 4);
                         }
                         break;
                     case "REL+":
                         {
                             if (this.PMoveCheck()) return;
 
-                            _axis.MoveREL(State.RelPos, spd, State.Speed * 4, State.Speed * 4);
+                            _axis.MoveREL(State.RelPos, jogSpd, State.Speed * 4, State.Speed * 4);
                         }
                         break;
                     case "REL-":
                         {
                             if (this.NMoveCheck()) return;
 
-                            _axis.MoveREL(-State.RelPos, spd, State.Speed * 4, State.Speed * 4);
+                            _axis.MoveREL(-State.RelPos, jogSpd, State.Speed * 4, State.Speed * 4);
                         }
                         break;
                     case "ABS":
@@ -227,7 +246,7 @@ namespace WILL.WT.PINFORCE.Models.Axis
                                 if (this.NMoveCheck()) return;
                             }
 
-                            _axis.MoveABS(State.AbsPos, spd, State.Speed * 4, State.Speed * 4);
+                            _axis.MoveABS(State.AbsPos, jogSpd, State.Speed * 4, State.Speed * 4);
                         }
                         break;
                 }

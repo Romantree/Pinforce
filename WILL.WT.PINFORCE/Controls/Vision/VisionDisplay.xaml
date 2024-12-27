@@ -9,7 +9,38 @@
         mc:Ignorable="d" d:DataContext="{d:DesignInstance local:VisionDisplayViewModel}"
         d:DesignHeight="600" d:DesignWidth="600">
     <!-- VisionDisplayViewModel => VisionDisplay.xaml.cs 에 있음 -->
-    
+
+    <UserControl.Resources>
+        <DataTemplate x:Key="xVisionArea">
+            <Grid>
+                <Border Margin="2 5" Background="Black" CornerRadius="5">
+                    <!-- <TextBlock Text="Vision" Foreground="White" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/> -->
+                    <Image x:Name="xImage" Stretch="Uniform" Source="{Binding SnapImageSource}" Margin="0" Visibility="{Binding VisionVisibility}"/>
+
+                </Border>
+
+                <Border Background="DimGray" CornerRadius="3" TextBlock.FontSize="12" TextBlock.FontWeight="Bold" Width="{Binding WindowSize}" Height="{Binding WindowSize}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15 20 0 0" Visibility="{Binding UIVisibility}">
+                    <Grid Margin="5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.ColumnSpan="2" Text="DATA" Foreground="White" HorizontalAlignment="Center" FontSize="{Binding FontSize}"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding UI.AxisZ.State.ActPos, StringFormat={}Z-Axis : {0:f3} mm}" Foreground="White" HorizontalAlignment="Center" FontSize="{Binding FontSize}" Visibility="{Binding }"/>
+                        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding OD, StringFormat={}Step O/D : {0:f1} um}" Foreground="White" HorizontalAlignment="Center" FontSize="{Binding FontSize}" Visibility="{Binding }"/>
+                        <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding UI.LoadcellDataModel_1.Data, StringFormat={}LC #1 : {0:f3} g}" Foreground="White" HorizontalAlignment="Center" FontSize="{Binding FontSize}" Visibility="{Binding }"/>
+                        <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding UI.LoadcellDataModel_2.Data, StringFormat={}LC #2 : {0:f3} g}" Foreground="White" HorizontalAlignment="Center" FontSize="{Binding FontSize}" Visibility="{Binding }"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </DataTemplate>
+    </UserControl.Resources>
+
     <!-- VISION 그룹박스 -->
     <tc:GroupBox3D Header="VISION">
         <Grid>
@@ -24,38 +55,17 @@
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
+                    <ColumnDefinition Width="50"/>
                 </Grid.ColumnDefinitions>
 
                 <tc:EventBtn Grid.Column="0" Style="{StaticResource xEventBtn}" Command="{Binding OnVisionCmd}" Icon="{StaticResource appbar_control_play}" CommandParameter="LIVE" Content="LIVE" Background="Green"/>
                 <tc:EventBtn Grid.Column="1" Style="{StaticResource xEventBtn}" Command="{Binding OnVisionCmd}" Icon="{StaticResource appbar_control_stop}" CommandParameter="STOP" Content="STOP" Background="Red"/>
                 <tc:EventBtn Grid.Column="2" Style="{StaticResource xEventBtn}" Command="{Binding OnVisionCmd}" CommandParameter="SAVE" Content="SAVE"/>
                 <tc:EventBtn Grid.Column="3" Style="{StaticResource xEventBtn}" Command="{Binding OnVisionCmd}" Content="DATA"/>
+                <tc:EventBtn Grid.Column="4" Style="{StaticResource xEventBtn}" Command="{Binding OnVisionCmd}" CommandParameter="EXTD" HorizontalIconAlignment="Center" VerticalContentAlignment="Center" Icon="{StaticResource appbar_magnify_add}" Background="DodgerBlue"/>
             </Grid>
 
-            <Border Grid.Row="1" Margin="2 5" Background="Black" CornerRadius="5">
-                <!-- <TextBlock Text="Vision" Foreground="White" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/> -->
-                <Image Stretch="Uniform" Source="{Binding SnapImageSource}" Margin="0" Visibility="{Binding VisionVisibility}"/>
-                
-            </Border>
-
-            <Border Grid.Row="1" Background="DimGray" CornerRadius="3" TextBlock.FontSize="12" TextBlock.FontWeight="Bold" Width="120" Height="120" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15 20 0 0" Visibility="{Binding UIVisibility}">
-                <Grid Margin="5">
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-
-                    <TextBlock Grid.ColumnSpan="2" Text="DATA" Foreground="White" HorizontalAlignment="Center" FontSize="10"/>
-
-                    <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding UI.AxisZ.State.ActPos, StringFormat={}Z-Axis : {0:f3} mm}" Foreground="White" HorizontalAlignment="Center" FontSize="10"/>
-                    <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding UI.OD, StringFormat={}OD : {0:f3} mm}" Foreground="White" HorizontalAlignment="Center" FontSize="10"/>
-                    <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding UI.Weight1, StringFormat={}LC #1 : {0:f3} g}" Foreground="White" HorizontalAlignment="Center" FontSize="10"/>
-                    <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding UI.Weight2, StringFormat={}LC #2 : {0:f3} g}" Foreground="White" HorizontalAlignment="Center" FontSize="10"/>
-                </Grid>
-            </Border>
+            <ContentControl Grid.Row="1" ContentTemplate="{StaticResource xVisionArea}" Content="{Binding }"/>
         </Grid>
     </tc:GroupBox3D>
 </UserControl>

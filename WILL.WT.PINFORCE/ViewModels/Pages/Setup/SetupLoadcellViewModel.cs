@@ -28,39 +28,21 @@ namespace WILL.WT.PINFORCE.ViewModels.Pages.Setup
 
         // Binding Data => DataModel
 
-        public LoadcellDataModel LoadcellDataModel_1 { get; set; } = new LoadcellDataModel();
-        public LoadcellDataModel LoadcellDataModel_2 { get; set; } = new LoadcellDataModel();
-        
-        private Parity _selectedParity;
-        private StopBits _selectedStopBits;
-        private Handshake _selectedHandshake;
-        public Parity SelectedParity
-        {
-            get => _selectedParity;
-            set
-            {
-                _selectedParity = value;
-                OnPropertyChanged(nameof(SelectedParity));
-            }
-        }
+        public LoadcellModel LoadcellModel_1 { get; set; } = new LoadcellModel(true);
+        public LoadcellModel LoadcellModel_2 { get; set; } = new LoadcellModel(false);
 
-        public StopBits SelectedStopBits
+        public override void Init()
         {
-            get => _selectedStopBits;
-            set
+            try
             {
-                _selectedStopBits = value;
-                OnPropertyChanged(nameof(SelectedStopBits));
-            }
-        }
+                base.Init();
 
-        public Handshake SelectedHandshake
-        {
-            get => _selectedHandshake;
-            set
+                this.LoadcellModel_1.Init();
+                this.LoadcellModel_2.Init();
+            }
+            catch (Exception ex)
             {
-                _selectedHandshake = value;
-                OnPropertyChanged(nameof(SelectedHandshake));
+                Logger.Write(this, ex);
             }
         }
 
@@ -69,8 +51,6 @@ namespace WILL.WT.PINFORCE.ViewModels.Pages.Setup
             try
             {
                 base.Show();
-
-                this.Refresh();
             }
             catch (Exception ex)
             {
@@ -78,52 +58,19 @@ namespace WILL.WT.PINFORCE.ViewModels.Pages.Setup
             }
         }
 
-        private void Refresh(bool isSave = false)
+        public override void Update()
         {
             try
             {
-                // AP.cs -> DB Class 내에 작성한 DB.cs 작성
-                // DB.cs 구조는 Model과 동일하게
-                if (isSave)
-                {
-                    // DB 저장
-                    DB.DataCopyEx(this.LoadcellDataModel_1, DB.Loadcell.Loadcell_1);
-                    DB.DataCopyEx(this.LoadcellDataModel_2, DB.Loadcell.Loadcell_2);
-                }
+                base.Update();
 
-                // DB 불러오기
-                DB.DataCopy(this.LoadcellDataModel_1, DB.Loadcell.Loadcell_1);
-                DB.DataCopy(this.LoadcellDataModel_1, DB.Loadcell.Loadcell_2);
+                this.LoadcellModel_1.Update();
+                this.LoadcellModel_2.Update();
             }
             catch (Exception ex)
             {
                 Logger.Write(this, ex);
             }
         }
-
-        protected override void OnCommand(object parameter)
-        {
-            // [Open, Close]_[1, 2]
-            string[] param = (parameter as string).Split('_');
-            try
-            {
-                switch (param[0]) // Open, Close
-                {
-                    case "Open":
-                        this.Refresh(true);
-                        // OpenSerial(param[1]);
-                        break;
-                    case "Close":
-                        // CloseSerial(param[1]);
-                        break;
-                }
-            }
-            catch (Exception ex)
-            {
-                Logger.Write(this, ex);
-            }
-        }
-
-        // ValueChanged가 있는지?
     }
 }

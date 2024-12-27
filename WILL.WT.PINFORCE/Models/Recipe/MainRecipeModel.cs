@@ -10,20 +10,22 @@ namespace WILL.WT.PINFORCE.Models.Recipe
         public MainRecipeModel() : base(RecipeType.MAIN) { }
 
         [DataMember]
-        public int Start { get => this.GetValue<int>(); set => this.SetValue(value); }
+        public double Start { get => this.GetValue<double>(); set => this.SetValue(value); }
 
         [DataMember]
-        public int Step { get => this.GetValue<int>(); set => this.SetValue(value); }
+        public double Step { get => this.GetValue<double>(); set => this.SetValue(value); }
         [DataMember]
-        public int Max { get => this.GetValue<int>(); set => this.SetValue(value); }
+        public double Max { get => this.GetValue<double>(); set => this.SetValue(value); }
 
         [DataMember]
-        public int End { get => this.GetValue<int>(); set => this.SetValue(value); }
+        public double End { get => this.GetValue<double>(); set => this.SetValue(value); }
 
         [DataMember]
         public double ContactTime { get => this.GetValue<double>(); set => this.SetValue(value); }
         [DataMember]
         public double WorkSpeed { get => this.GetValue<double>(); set => this.SetValue(value); }
+        [DataMember]
+        public int StepRepeat { get => this.GetValue<int>(); set => this.SetValue(value); }
 
         [DataMember]
         public int RepeatCount { get => this.GetValue<int>(); set => this.SetValue(value); }

@@ -38,7 +38,7 @@
             <tc:TextBlock3D Grid.Row="4" Style="{StaticResource xTextTitle}" Text="REL Move"/>
 
             <!-- Input Area -->
-            <tc:ComboBtn Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Margin="2 2 2 2" ItemsSource="{Binding Source={x:Static em:EnumHelper.JogSpeed}}" Text="{Binding JogSpeed}" />
+            <tc:ComboBtn Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Margin="2 2 2 2" ItemsSource="{Binding Source={x:Static em:EnumHelper.JogSpeed}}" Text="{Binding JogSpeed}" SelectedIndex="{Binding SelectedJogSpeed}" />
             <!-- <tc:ValueBtn Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Style="{StaticResource xValueBtn}" Content="{Binding State.Speed}" ContentStringFormat="{}{0:f3} mm/s"/> -->
             <tc:ValueBtn Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Style="{StaticResource xValueBtn}" Content="{Binding State.AbsPos}" ContentStringFormat="{}{0:f3} mm"/>
             <tc:ValueBtn Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Style="{StaticResource xValueBtn}" Content="{Binding State.RelPos}" ContentStringFormat="{}{0:f3} mm"/>

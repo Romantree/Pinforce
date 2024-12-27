@@ -63,6 +63,12 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Crevis.VirtualFG40CL">
+      <HintPath>..\..\..\Program Files\CREVIS\Cameras\MCam40\bin\x64\Crevis.VirtualFG40CL.dll</HintPath>
+    </Reference>
+    <Reference Include="Crevis.VirtualFG40Library">
+      <HintPath>..\..\..\Program Files\CREVIS\Cameras\MCam40\bin\x64\Crevis.VirtualFG40Library.dll</HintPath>
+    </Reference>
     <Reference Include="InfragisticsWPF4.Controls.Charts.XamDataChart.v20.1, Version=20.1.20201.182, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Program Files (x86)\Infragistics\2020.1\WPF\CLR4.0\Bin\InfragisticsWPF4.Controls.Charts.XamDataChart.v20.1.dll</HintPath>
@@ -157,10 +163,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Configs\AutoContactParamDB.cs" />
-    <Compile Include="Configs\LoadcellDB.cs" />
     <Compile Include="Configs\MotionDB.cs" />
     <Compile Include="Configs\NetworkDB.cs" />
+    <Compile Include="Configs\VisionDB.cs" />
     <Compile Include="Configs\WorkParamDB.cs" />
     <Compile Include="Controls\Chart\ChartDisplay.xaml.cs">
       <DependentUpon>ChartDisplay.xaml</DependentUpon>
@@ -201,11 +206,7 @@
     <Compile Include="Models\Axis\AxisStateModel.cs" />
     <Compile Include="Managers\CameraManager.cs" />
     <Compile Include="Models\Axis\MotionModel.cs" />
-    <Compile Include="Models\Config\DelayDataModel.cs" />
-    <Compile Include="Models\Config\LimitDataModel.cs" />
-    <Compile Include="Models\Config\LoadcellRangeDataModel.cs" />
-    <Compile Include="Models\Config\MotionDataModel.cs" />
-    <Compile Include="Models\Config\TimeoutDataModel.cs" />
+    <Compile Include="Models\Config\WorkParameterModel.cs" />
     <Compile Include="Models\EqpControl.cs" />
     <Compile Include="Models\IConfigModel.cs" />
     <Compile Include="Models\InterlockState.cs" />
@@ -214,10 +215,11 @@
     <Compile Include="Models\InOut\CylinderModel.cs" />
     <Compile Include="Models\InOut\InStateModel.cs" />
     <Compile Include="Models\InOut\OutControlModel.cs" />
-    <Compile Include="Models\Recipe\AutoContectRcpModel.cs" />
+    <Compile Include="Models\Recipe\AutoContactRcpModel.cs" />
     <Compile Include="Models\Recipe\MainRecipeModel.cs" />
     <Compile Include="Models\Axis\SpeedModel.cs" />
-    <Compile Include="Models\Setup\LoadcellDataModel.cs" />
+    <Compile Include="Models\Setup\LoadcellModel.cs" />
+    <Compile Include="Models\Setup\VisionUIModel.cs" />
     <Compile Include="Models\TowerLamp.cs" />
     <Compile Include="Models\VisionUIData.cs" />
     <Compile Include="Networks\NetLoadcell.cs" />
@@ -234,9 +236,6 @@
     <Compile Include="Process\Work\IWorkProcess.cs" />
     <Compile Include="Process\Work\Main\MainProc.cs" />
     <Compile Include="Process\Work\Main\MainStep.cs" />
-    <Compile Include="Test.xaml.cs">
-      <DependentUpon>Test.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\Pages\Alarm\AlarmHistoryViewModel.cs" />
     <Compile Include="ViewModels\Pages\Alarm\AlarmMainViewModel.cs" />
@@ -304,8 +303,8 @@
     <Compile Include="Views\Win\RcpSelectView.xaml.cs">
       <DependentUpon>RcpSelectView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Win\SetupJogSpdView.xaml.cs">
-      <DependentUpon>SetupJogSpdView.xaml</DependentUpon>
+    <Compile Include="Views\Win\VisionPopupView.xaml.cs">
+      <DependentUpon>VisionPopupView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -452,10 +451,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Test.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Views\MainView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -501,8 +496,8 @@
       <Generator>XamlIntelliSenseFileGenerator</Generator>
     </Page>
     <Page Include="Views\Pages\Setup\SetupLoadcellView.xaml">
+      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-      <Generator>XamlIntelliSenseFileGenerator</Generator>
     </Page>
     <Page Include="Views\Pages\Setup\SetupMotionView.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -524,7 +519,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Win\SetupJogSpdView.xaml">
+    <Page Include="Views\Win\VisionPopupView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -43,12 +43,29 @@
                         </Style>
                     </StackPanel.Resources>
                     
-                    <tc:CaptionValue Caption="Vision Param #1" SizeCaption="150">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding Start, StringFormat={}{0:f0} um}"/>
+                    <tc:CaptionValue Caption="Data UI Window Sz." SizeCaption="200">
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding VisionUIDataModel.WindowSize, StringFormat={}{0:f0}}" Min="100" Max="200"/>
                     </tc:CaptionValue>
-                    <tc:CaptionValue Caption="Vision Param #2" SizeCaption="150">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding Start, StringFormat={}{0:f0} um}"/>
+                    <tc:CaptionValue Caption="Data UI Font Sz." SizeCaption="200">
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding VisionUIDataModel.FontSize, StringFormat={}{0:f0}}" Min="8" Max="20"/>
                     </tc:CaptionValue>
+                    <tc:CaptionValue Caption="Capture Notice" SizeCaption="200">
+                        <tc:OnOffBtn IsChecked="{Binding VisionUIDataModel.CaptureNotice}"/>
+                    </tc:CaptionValue>
+                    <!--
+                    <tc:CaptionValue Caption="Axis-Z Visible" SizeCaption="200">
+                        <tc:OnOffBtn IsChecked="{Binding VisionUIDataModel.AxisZ}"/>
+                    </tc:CaptionValue>
+                    <tc:CaptionValue Caption="Step O/D Visible" SizeCaption="200">
+                        <tc:OnOffBtn IsChecked="{Binding VisionUIDataModel.StepOD}"/>
+                    </tc:CaptionValue>
+                    <tc:CaptionValue Caption="Loadcell #1 Visible" SizeCaption="200">
+                        <tc:OnOffBtn IsChecked="{Binding VisionUIDataModel.Loadcell_1}"/>
+                    </tc:CaptionValue>
+                    <tc:CaptionValue Caption="Loadcell #2 Visible" SizeCaption="200">
+                        <tc:OnOffBtn IsChecked="{Binding VisionUIDataModel.Loadcell_2}"/>
+                    </tc:CaptionValue>
+                    -->
                 </StackPanel>
             </Grid>
         </tc:GroupBox3D>

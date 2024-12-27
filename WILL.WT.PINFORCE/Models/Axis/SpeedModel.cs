@@ -17,11 +17,8 @@ namespace WILL.WT.PINFORCE.Models.Setup
         public double JogMidSpeed { get => this.GetValue<double>(); set => this.SetValue(value); }
         public double JogHighSpeed { get => this.GetValue<double>(); set => this.SetValue(value); }
 
-        public double HomeSpeed { get => this.GetValue<double>(); set => this.SetValue(value); }
-        public double InitSpeed { get => this.GetValue<double>(); set => this.SetValue(value); }
-
         // 속도 기준값
-        public int RefSpeed { get => this.GetValue<int>(); set => this.SetValue(value); }
+        public double RefSpeed { get => this.GetValue<double>(); set => this.SetValue(value); }
 
         // 생성자
         // public MotionDataModel(string name) => this.Name = name; // ViewModel에서 입력한 "NAME"

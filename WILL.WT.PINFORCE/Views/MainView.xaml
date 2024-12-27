@@ -73,10 +73,11 @@
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
 
-                            <tc:EventBtn Grid.Column="0" Style="{StaticResource xIconBtn}" Icon="{StaticResource appbar_warning}" Content="Alarm" CommandParameter="Alarm"
+                            <!-- Buzzer 숨김 -->
+                            <tc:EventBtn Grid.Column="1" Style="{StaticResource xIconBtn}" Icon="{StaticResource appbar_warning}" Content="Alarm" CommandParameter="Alarm"
                                          Foreground="{Binding Alarm, Converter={StaticResource xColorCvt}, ConverterParameter=Alarm}" IsEnabled="{Binding IsEnable}"/>
                             <tc:EventBtn Grid.Column="1" Style="{StaticResource xIconBtn}" Icon="{StaticResource appbar_uservoice}" Content="Buzzer" CommandParameter="Buzzer"
-                                         Foreground="{Binding Buzzer, Converter={StaticResource xColorCvt}, ConverterParameter=Lamp}"/>
+                                         Foreground="{Binding Buzzer, Converter={StaticResource xColorCvt}, ConverterParameter=Lamp}" Visibility="Collapsed"/>
                             <tc:EventBtn Grid.Column="2" Style="{StaticResource xIconBtn}" Icon="{StaticResource appbar_people_multiple}" Content="{Binding Login}" FontSize="10" CommandParameter="Login"/>
                         </Grid>
                     </Grid>
@@ -91,7 +92,26 @@
                         <Border Style="{StaticResource xBorder3D}" Background="DimGray" Margin="2 5">
 
                             <!-- 신규 Status UI -->
-                            <TextBlock Width="400" Text="  Pin Force Evaluating System" Foreground="WhiteSmoke" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22"/>
+                            <Grid Margin="20 5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <!-- Header Text -->
+                                <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Width="400" Text="Pin Force Evaluating System" Foreground="WhiteSmoke" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20"/>
+                                <TextBlock Grid.Column="0" Grid.Row="1" Text="Loadcell #1" Foreground="WhiteSmoke" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="14"/>
+                                <TextBlock Grid.Column="2" Grid.Row="1" Text="Loadcell #2" Foreground="WhiteSmoke" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="14"/>
+                                <!-- Status Icon -->
+                                <ts:Border3D Grid.Column="1" Grid.Row="1" Margin="5 5" Width="80" CornerRadius="10" Background="{Binding LoadcellModel_1.IsOpen, Converter={StaticResource xOnOffColor}, ConverterParameter=Green}" HorizontalAlignment="Left"/>
+                                <ts:Border3D Grid.Column="3" Grid.Row="1" Margin="5 5" Width="80" CornerRadius="10" Background="{Binding LoadcellModel_2.IsOpen, Converter={StaticResource xOnOffColor}, ConverterParameter=Green}" HorizontalAlignment="Left"/>
+                            </Grid>
+
                             <!-- 기존 Status UI-->
                             <!--
                             <Grid>

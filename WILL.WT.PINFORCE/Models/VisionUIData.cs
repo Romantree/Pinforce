@@ -5,16 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using TS.FW;
 using TS.FW.Wpf.Core;
+using TS.FW.Wpf.v2.Core;
 using WILL.WT.PINFORCE.Models.Axis;
+using WILL.WT.PINFORCE.Models.Setup;
 
 namespace WILL.WT.PINFORCE.Models
 {
-    public class VisionUIData : ModelBase
+    public class VisionUIData : IModel
     {
         public AxisModel AxisZ { get; set; } = new AxisModel(eAxis.AXIS_Z);
-        public double OD {get; set;} = new double();
-        public double Weight1 { get => this.GetValue<double>(); set => this.SetValue(value); }
-        public double Weight2 { get => this.GetValue<double>(); set => this.SetValue(value); }
+        public LoadcellModel LoadcellDataModel_1 { get; set; } = new LoadcellModel(true);
+        public LoadcellModel LoadcellDataModel_2 { get; set; } = new LoadcellModel(false);
 
         public VisionUIData() { }
 
@@ -23,9 +24,8 @@ namespace WILL.WT.PINFORCE.Models
             try
             {
                 this.AxisZ.Update();
-                // this.OD = AP.Net.StageLeftLD.Data;
-                // this.Weight1 = AP.Net.StageLeftLD.Data;
-                // this.Weight2 = AP.Net.StageRightLD.Data;
+                this.LoadcellDataModel_1.Update();
+                this.LoadcellDataModel_2.Update();
             }
             catch (Exception ex)
             {

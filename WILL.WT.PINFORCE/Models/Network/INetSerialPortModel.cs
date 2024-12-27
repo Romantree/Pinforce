@@ -24,6 +24,8 @@ namespace WILL.WT.PINFORCE.Models.Network
 
         public bool IsOpen { get => this.GetValue<bool>(); set => this.SetValue(value); }
 
+        public virtual void Init() { } // Init 생성
+
         public virtual void Update() { }
     }
 
@@ -34,6 +36,18 @@ namespace WILL.WT.PINFORCE.Models.Network
         public INetSerialPortModel(NetworkUnit unit) : base(unit) { }
 
         public NormalCommand OnConnectionCmd => new NormalCommand(ConnectionCmd);
+
+        public override void Init() // Init 시도
+        {
+            try
+            {
+                this.IsOpen = _Client.IsOpen;
+            }
+            catch (Exception ex)
+            {
+                Logger.Write(this, ex);
+            }
+        }
 
         public override void Update()
         {

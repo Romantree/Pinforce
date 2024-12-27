@@ -16,7 +16,6 @@ namespace WILL.WT.PINFORCE.Models.InOut
 
             _up = up;
             _down = down;
-
         }
 
         public string Status { get => this.GetValue<string>(); set => this.SetValue(value); }

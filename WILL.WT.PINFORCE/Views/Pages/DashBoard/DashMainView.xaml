@@ -28,11 +28,11 @@
                     </Style>
                 </StackPanel.Resources>
 
-                <tc:EventBtn Height="80" Style="{StaticResource xRunBtn}" Icon="{StaticResource appbar_control_play}" Content="START" Background="Green" CommandParameter="Start"/>
+                <tc:EventBtn Height="80" Style="{StaticResource xRunBtn}" Icon="{StaticResource appbar_control_play}" Content="START" Background="Green" CommandParameter="Start" IsEnabled="{Binding IsBusy}"/>
                 <tc:EventBtn Height="80" Style="{StaticResource xRunBtn}" Icon="{StaticResource appbar_control_stop}" Content="STOP" Background="Red" CommandParameter="Stop"/>
                 <!-- 필요 없으므로 제외 -->
                 <!-- <tc:EventBtn Height="80" Style="{StaticResource xRunBtn}" Icon="{StaticResource appbar_control_pause}" Content="PIN STOP" CommandParameter="PinStop"/> -->
-                <tc:EventBtn Height="80" Style="{StaticResource xRunBtn}" Icon="{StaticResource appbar_pin}" Content="INITIAL" CommandParameter="Initial"/>
+                <tc:EventBtn Height="80" Style="{StaticResource xRunBtn}" Icon="{StaticResource appbar_pin}" Content="INITIAL" CommandParameter="Initial" IsEnabled="{Binding IsBusy}"/>
             </StackPanel>
         </Border>
 
@@ -62,7 +62,7 @@
                             <!-- Recipe Name -->
                             <RowDefinition Height="1*"/>
                             <!-- Recipe Param -->
-                            <RowDefinition Height="9*"/>
+                            <RowDefinition Height="11*"/>
                         </Grid.RowDefinitions>
 
                         <!-- Recipe Name -->
@@ -74,6 +74,7 @@
                         <Grid Grid.Column="0" Grid.Row="1" DataContext="{Binding Rcp}">
                             <!-- Param Area Devide -->
                             <Grid.RowDefinitions>
+                                <RowDefinition/>
                                 <RowDefinition/>
                                 <RowDefinition/>
                                 <RowDefinition/>
@@ -105,10 +106,13 @@
                             <tc:CaptionValue Grid.Row="5" Caption="WORK SPEED" SizeCaption="150" Grid.ColumnSpan="2">
                                 <tc:TextBlock3D Style="{StaticResource xTextState}" Text="{Binding WorkSpeed, StringFormat={}{0:f3} mm/s}"/>
                             </tc:CaptionValue>
-                            <tc:CaptionValue Grid.Row="6" Caption="REPEAT COUNT" SizeCaption="150" Grid.ColumnSpan="2">
+                            <tc:CaptionValue Grid.Row="6" Caption="STEP REPEAT" SizeCaption="150" Grid.ColumnSpan="2">
+                                <tc:TextBlock3D Style="{StaticResource xTextState}" Text="{Binding StepRepeat, StringFormat={}{0:f0} 회}"/>
+                            </tc:CaptionValue>
+                            <tc:CaptionValue Grid.Row="7" Caption="REPEAT COUNT" SizeCaption="150" Grid.ColumnSpan="2">
                                 <tc:TextBlock3D Style="{StaticResource xTextState}" Text="{Binding RepeatCount, StringFormat={}{0:f0} 회}"/>
                             </tc:CaptionValue>
-                            <tc:CaptionValue Grid.Row="7" Caption="REPEAT METHOD" SizeCaption="150" Grid.ColumnSpan="2">
+                            <tc:CaptionValue Grid.Row="8" Caption="REPEAT METHOD" SizeCaption="150" Grid.ColumnSpan="2">
                                 <!-- <tc:OnOffBtn On="순차 복귀" Off="Zero 복귀" IsChecked="{Binding RepeatMethod}" IsHitTestVisible="False"/> -->
                                 <!--
                                 <tc:ComboBtn Margin="2 2 2 2">
@@ -118,13 +122,13 @@
                                 <!-- Dash Board의 Recipe는 Read만 하므로 일반 Text -->
                                 <tc:TextBlock3D Style="{StaticResource xTextState}" Text="{Binding RepeatMethod, StringFormat={}}"/>
                             </tc:CaptionValue>
-                            <tc:CaptionValue Grid.Row="8" Caption="RELEASE USE" SizeCaption="150" Grid.ColumnSpan="2">
+                            <tc:CaptionValue Grid.Row="9" Caption="RELEASE USE" SizeCaption="150" Grid.ColumnSpan="2">
                                 <tc:OnOffBtn  IsChecked="{Binding ReleaseUse}" IsHitTestVisible="False"/>
                             </tc:CaptionValue>
-                            <tc:CaptionValue Grid.Row="9" Caption="RELEASE TIME" SizeCaption="150" Grid.ColumnSpan="2">
+                            <tc:CaptionValue Grid.Row="10" Caption="RELEASE TIME" SizeCaption="150" Grid.ColumnSpan="2">
                                 <tc:TextBlock3D Style="{StaticResource xTextState}" Text="{Binding ReleaseTime, StringFormat={}{0:f3} sec}"/>
                             </tc:CaptionValue>
-                            <tc:CaptionValue Grid.Row="10" Caption="RELEASE DISTANCE" SizeCaption="150" Grid.ColumnSpan="2">
+                            <tc:CaptionValue Grid.Row="11" Caption="RELEASE DISTANCE" SizeCaption="150" Grid.ColumnSpan="2">
                                 <tc:TextBlock3D Style="{StaticResource xTextState}" Text="{Binding ReleaseDist, StringFormat={}{0:f0} um}"/>
                             </tc:CaptionValue>
                         </Grid>
@@ -159,10 +163,10 @@
                         <tc:TextBlock3D Grid.Column="1" Grid.Row="6" Style="{StaticResource xTextTitle}" Text="Progress"/>
 
                         <!-- Data Text -->
-                        <tc:TextBlock3D Grid.Column="1" Grid.Row="1" Style="{StaticResource xTextState}" Text="{Binding Upper, StringFormat={}{0:f3} g}"/>
-                        <tc:TextBlock3D Grid.Column="1" Grid.Row="3" Style="{StaticResource xTextState}" Text="{Binding Lower, StringFormat={}{0:f3} g}"/>
-                        <tc:TextBlock3D Grid.Column="1" Grid.Row="5" Style="{StaticResource xTextState}" Text="{Binding RptCnt, StringFormat={}{0:f0}}"/>
-                        <tc:TextBlock3D Grid.Column="1" Grid.Row="7" Style="{StaticResource xTextState}" Text="{Binding Progress, StringFormat={}{0:f0} %}"/>
+                        <tc:TextBlock3D Grid.Column="1" Grid.Row="1" Style="{StaticResource xTextState}" Text="{Binding LoadcellModel_1.Data, StringFormat={}{0:f3} g}"/>
+                        <tc:TextBlock3D Grid.Column="1" Grid.Row="3" Style="{StaticResource xTextState}" Text="{Binding LoadcellModel_2.Data, StringFormat={}{0:f3} g}"/>
+                        <tc:TextBlock3D Grid.Column="1" Grid.Row="5" Style="{StaticResource xTextState}" Text="{Binding TestRptCnt}"/>
+                        <tc:TextBlock3D Grid.Column="1" Grid.Row="7" Style="{StaticResource xTextState}" Text="{Binding Progress, StringFormat={}{0:f1} %}"/>
                     </Grid>
                 </tc:GroupBox3D>
             </Grid>

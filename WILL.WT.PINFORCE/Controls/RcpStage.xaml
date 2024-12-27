@@ -24,38 +24,41 @@
                     </StackPanel.Resources>
                     <tc:CaptionValue Grid.Row="0" Caption="START O/D" SizeCaption="150">
                         <!-- <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding Start, StringFormat={}{0:f0} um}"/> -->
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding Start}" ContentStringFormat="{}{0} um"/>
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding Start}" ContentStringFormat="{}{0} um" Min="1" Max="1000"/>
                     </tc:CaptionValue>
                     <tc:CaptionValue Grid.Row="1" Caption="STEP O/D" SizeCaption="150">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding Step}" ContentStringFormat="{}{0} um"/>
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding Step}" ContentStringFormat="{}{0} um" Min="1" Max="1000"/>
                     </tc:CaptionValue>
                     <tc:CaptionValue Grid.Row="2" Caption="MAX. O/D" SizeCaption="150">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding Max}" ContentStringFormat="{}{0} um"/>
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding Max}" ContentStringFormat="{}{0} um" Min="1" Max="1000"/>
                     </tc:CaptionValue>
                     <tc:CaptionValue Grid.Row="3" Caption="END O/D" SizeCaption="150">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding End}" ContentStringFormat="{}{0} um"/>
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding End}" ContentStringFormat="{}{0} um" Min="1" Max="1000"/>
                     </tc:CaptionValue>
                     <tc:CaptionValue Grid.Row="4" Caption="CONTACT TIME" SizeCaption="150">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding ContactTime}" ContentStringFormat="{}{0:f3} sec"/>
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding ContactTime}" ContentStringFormat="{}{0:f3} sec" Min="0.1" Max="10.000"/>
                     </tc:CaptionValue>
                     <tc:CaptionValue Grid.Row="5" Caption="WORK SPEED" SizeCaption="150">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding WorkSpeed}" ContentStringFormat="{}{0:f3} mm/s}"/>
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding WorkSpeed}" ContentStringFormat="{}{0:f3} mm/s" Min="0.001" Max="1.000"/>
                     </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="6" Caption="REPEAT COUNT" SizeCaption="150">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding RepeatCount}" ContentStringFormat="{}{0} 회"/>
+                    <tc:CaptionValue Grid.Row="6" Caption="STEP REPEAT" SizeCaption="150">
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding StepRepeat}" ContentStringFormat="{}{0} 회" Min="1" Max="100"/>
                     </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="7" Caption="REPEAT METHOD" SizeCaption="150">
+                    <tc:CaptionValue Grid.Row="7" Caption="REPEAT COUNT" SizeCaption="150">
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding RepeatCount}" ContentStringFormat="{}{0} 회" Min="1" Max="100"/>
+                    </tc:CaptionValue>
+                    <tc:CaptionValue Grid.Row="8" Caption="REPEAT METHOD" SizeCaption="150">
                         <!-- <tc:OnOffBtn On="순차 복귀" Off="Zero 복귀" IsChecked="{Binding RepeatMethod}"/> -->
                         <tc:ComboBtn Margin="2 2 2 2" ItemsSource="{Binding Source={x:Static em:EnumHelper.RepeatMethod}}" Text="{Binding RepeatMethod}" />
                     </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="8" Caption="RELEASE USE" SizeCaption="150">
+                    <tc:CaptionValue Grid.Row="9" Caption="RELEASE USE" SizeCaption="150">
                         <tc:OnOffBtn IsChecked="{Binding ReleaseUse}"/>
                     </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="9" Caption="RELEASE TIME" SizeCaption="150">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding ReleaseTime}" ContentStringFormat="{}{0:f3} sec"/>
+                    <tc:CaptionValue Grid.Row="10" Caption="RELEASE TIME" SizeCaption="150">
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding ReleaseTime}" ContentStringFormat="{}{0:f3} sec" Min="0.1" Max="10"/>
                     </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="10" Caption="RELEASE DISTANCE" SizeCaption="150">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding ReleaseDist}" ContentStringFormat="{}{0} um"/>
+                    <tc:CaptionValue Grid.Row="11" Caption="RELEASE DISTANCE" SizeCaption="150">
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding ReleaseDist}" ContentStringFormat="{}{0} um" Min="1" Max="1000"/>
                     </tc:CaptionValue>
                 </StackPanel>
             </Grid>

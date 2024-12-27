@@ -11,7 +11,6 @@ FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Controls\Motion\SvcAxisList.xam
 FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Controls\RcpStage.xaml;;
 FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Controls\Vision\VisionDisplay.xaml;;
 FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Resources\Windows.xaml;;
-FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Test.xaml;;
 FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\MainView.xaml;;
 FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Pages\Alarm\AlarmHistoryView.xaml;;
 FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Pages\Alarm\AlarmMainView.xaml;;
@@ -29,5 +28,5 @@ FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Pages\Setup\SetupVisionVi
 FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Pages\Utility\UtLogFileView.xaml;;
 FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Pages\Utility\UtUserView.xaml;;
 FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Win\RcpSelectView.xaml;;
-FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Win\SetupJogSpdView.xaml;;
+FC:\000.Source\WILL.WT.PINFORCE\WILL.WT.PINFORCE\Views\Win\VisionPopupView.xaml;;
 

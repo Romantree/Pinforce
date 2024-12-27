@@ -6,15 +6,11 @@
     xmlns:local="clr-namespace:WILL.WT.PINFORCE.Controls.Motion"
     xmlns:tc="clr-namespace:TS.FW.Wpf.v2.Controls;assembly=TS.FW.Wpf.v2"
     mc:Ignorable="d" d:DataContext="{d:DesignInstance local:SpeedSettingViewModel}"
-    Style="{StaticResource xPopupWindow}" Height="650" Width="500" Background="Gray" FontSize="15">
+    Style="{StaticResource xPopupWindow}" Height="500" Width="350" Background="Gray" FontSize="15">
     <!-- DataContext된 SpeedSettingViewModel Class는 SpeedSetting.xaml의 하위에 있음 -->
     
     <Border Style="{StaticResource xGroup3D}">
         <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="40"/>
                 <RowDefinition/>
@@ -22,46 +18,35 @@
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
             <!-- Header Text -->
-            <tc:TextBlock3D Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource xTextTitle}" Text="SPEED SETTING"/>
+            <tc:TextBlock3D Grid.Column="0" Grid.Row="0" Style="{StaticResource xTextTitle}" Text="SPEED SETTING"/>
             
             <!-- Jog Speed GroupBox -->
-            <tc:GroupBox3D Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" Header="JOG SPEED">
+            <tc:GroupBox3D Grid.Column="0" Grid.Row="1" Header="JOG SPEED">
                 <StackPanel Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Orientation="Vertical" Margin="2 2 2 2">
                     <tc:CaptionValue Caption="LOW" SizeCaption="80" Height="40">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Foreground="{StaticResource xValueBtnForeground}" Background="{StaticResource xValueBtnBackground}" Content="{Binding speedModel.JogLowSpeed}" ContentStringFormat="{}{0} %" Min="0" Max="100"/>
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Foreground="{StaticResource xValueBtnForeground}" Background="{StaticResource xValueBtnBackground}" Content="{Binding speedModel.JogLowSpeed}" ContentStringFormat="{}{0} %" Min="1" Max="100"/>
                     </tc:CaptionValue>
                     <tc:CaptionValue Caption="MID" SizeCaption="80" Height="40">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Foreground="{StaticResource xValueBtnForeground}" Background="{StaticResource xValueBtnBackground}" Content="{Binding speedModel.JogMidSpeed}" ContentStringFormat="{}{0} %" Min="0" Max="100"/>
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Foreground="{StaticResource xValueBtnForeground}" Background="{StaticResource xValueBtnBackground}" Content="{Binding speedModel.JogMidSpeed}" ContentStringFormat="{}{0} %" Min="1" Max="100"/>
                     </tc:CaptionValue>
                     <tc:CaptionValue Caption="HIGH" SizeCaption="80" Height="40">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Foreground="{StaticResource xValueBtnForeground}" Background="{StaticResource xValueBtnBackground}" Content="{Binding speedModel.JogHighSpeed}" ContentStringFormat="{}{0} %" Min="0" Max="100"/>
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Foreground="{StaticResource xValueBtnForeground}" Background="{StaticResource xValueBtnBackground}" Content="{Binding speedModel.JogHighSpeed}" ContentStringFormat="{}{0} %" Min="1" Max="100"/>
                     </tc:CaptionValue>
                 </StackPanel>
 
-            </tc:GroupBox3D>
-            <!-- Jog Speed GroupBox -->
-            <tc:GroupBox3D Grid.Column="1" Grid.Row="1" Header="HOME / INIT. SPEED">
-                <StackPanel Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Orientation="Vertical" Margin="2 2 2 2">
-                    <tc:CaptionValue Caption="HOME" SizeCaption="80" Height="40">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Foreground="{StaticResource xValueBtnForeground}" Background="{StaticResource xValueBtnBackground}" Content="{Binding speedModel.HomeSpeed}" ContentStringFormat="{}{0} %" Min="0" Max="100"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Caption="INIT" SizeCaption="80" Height="40">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Foreground="{StaticResource xValueBtnForeground}" Background="{StaticResource xValueBtnBackground}" Content="{Binding speedModel.InitSpeed}" ContentStringFormat="{}{0} %" Min="0" Max="100"/>
-                    </tc:CaptionValue>
-                </StackPanel>
             </tc:GroupBox3D>
 
             <!-- Max Speed GroupBox -->
             <tc:GroupBox3D Grid.Column="1" Grid.Row="2" Header="SPEED SET">
                 <StackPanel Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Orientation="Vertical" Margin="2 2 2 2">
                     <tc:CaptionValue Caption="REF." SizeCaption="80" Height="40">
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Foreground="{StaticResource xValueBtnForeground}" Background="{StaticResource xValueBtnBackground}" Content="{Binding speedModel.RefSpeed}" ContentStringFormat="{}{0} mm/s" Min="0" Max="100"/>
+                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Foreground="{StaticResource xValueBtnForeground}" Background="{StaticResource xValueBtnBackground}" Content="{Binding speedModel.RefSpeed}" ContentStringFormat="{}{0:f3} mm/s" Min="0" Max="1"/>
                     </tc:CaptionValue>
                 </StackPanel>
             </tc:GroupBox3D>
 
             <!-- Footer Button -->
-            <StackPanel Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Right" Orientation="Horizontal">
+            <StackPanel Grid.Column="0" Grid.Row="3" HorizontalAlignment="Right" Orientation="Horizontal">
                 <StackPanel.Resources>
                     <Style TargetType="tc:EventBtn" BasedOn="{StaticResource xEventBtn}">
                         <Setter Property="Width" Value="150"/>

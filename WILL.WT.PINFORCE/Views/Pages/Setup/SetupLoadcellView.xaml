@@ -5,11 +5,59 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WILL.WT.PINFORCE.Views.Pages.Setup"
              xmlns:vm="clr-namespace:WILL.WT.PINFORCE.ViewModels.Pages.Setup"
+             xmlns:em="clr-namespace:WILL.WT.PINFORCE"
              xmlns:tc="clr-namespace:TS.FW.Wpf.v2.Controls;assembly=TS.FW.Wpf.v2"
               xmlns:ts="clr-namespace:TS.FW.Wpf.Controls;assembly=TS.FW.Wpf"
              mc:Ignorable="d" d:DataContext="{d:DesignInstance vm:SetupLoadcellViewModel}"
              Style="{StaticResource xPageSub}">
+    <UserControl.Resources>
+        <DataTemplate x:Key="xConnector">
+            <tc:GroupBox3D Grid.Column="1" Grid.Row="1" Header="{Binding Name}">
+                <!-- Parameter 설정 영역 영역 -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <!-- Open / Close Button 영역 -->
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <!-- 아래의 CaptionValue Height 조정 -->
+                    <tc:CaptionValue Grid.Row="0" Caption="COM Port" SizeCaption="150" Grid.ColumnSpan="2" >
+                        <tc:ComboBtn Style="{StaticResource xComboBtn}" ItemsSource="{Binding Source={x:Static em:EnumHelper.SerialPort}}" Text="{Binding Port}"/>
+                    </tc:CaptionValue>
+                    <!-- Open / Close Button -->
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <!-- INetSerialPortModel => private void ConnectionCmd(object param) -->
+                        <tc:EventBtn Grid.Column="0" Content="Open" Style="{StaticResource xEventBtn}" Background="Green" Command="{Binding OnConnectionCmd}" CommandParameter="OPEN"/>
+                        <tc:EventBtn Grid.Column="1" Content="Close" Style="{StaticResource xEventBtn}" Background="Red" Command="{Binding OnConnectionCmd}" CommandParameter="CLOSE"/>
+                    </Grid>
+                </Grid>
+            </tc:GroupBox3D>
+        </DataTemplate>
+        <DataTemplate x:Key="xStatus">
+            <tc:GroupBox3D Grid.Column="1" Grid.Row="1" Header="{Binding Name}" HeaderStringFormat="{}{0} STATUS">
+                <!-- Parameter 출력 영역 영역 -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
 
+                    <!-- 데이터 -->
+                    <tc:CaptionValue Grid.Row="0" Caption="Communication" SizeCaption="150" Grid.ColumnSpan="2" >
+                        <tc:OnOffBtn On="Connected" Off="Disconnected" IsChecked="{Binding IsOpen}" IsHitTestVisible="False"/>
+
+                    </tc:CaptionValue>
+                    <tc:CaptionValue Grid.Row="1" Caption="Weight (g)" SizeCaption="150" Grid.ColumnSpan="2" >
+                        <tc:TextBlock3D Style="{StaticResource xTextState}" Text="{Binding Data, StringFormat={}{0:f3} g}"/>
+                    </tc:CaptionValue>
+                </Grid>
+            </tc:GroupBox3D>
+        </DataTemplate>
+    </UserControl.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="400"/>
@@ -17,210 +65,22 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="80"/>
         </Grid.RowDefinitions>
 
         <!-- LoadCell #1 Connector -->
-        <Grid Grid.Column="0" Grid.Row="0">
-            <tc:GroupBox3D Grid.Column="1" Grid.Row="1" Header="LOADCELL #1">
-                <!-- Parameter 설정 영역 영역 -->
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                        <!-- Open / Close Button 영역 -->
-                        <RowDefinition Height="50"/>
-                    </Grid.RowDefinitions>
-                    <!-- 아래의 CaptionValue Height 조정 -->
-                    <tc:CaptionValue Grid.Row="0" Caption="COM Port" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ComboBtn Style="{StaticResource xComboBtn}"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="1" Caption="Baud Rate" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding LoadcellDataModel_1.Baudrate}" ContentStringFormat="{}"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="2" Caption="Parity" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ComboBtn Style="{StaticResource xComboBtn}" ItemsSource="{Binding SelectedParity}" Text="{Binding LoadcellDataModel_1.Parity}"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="3" Caption="Data Bits" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding LoadcellDataModel_1.DataBits}" ContentStringFormat="{}"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="4" Caption="Stop Bits" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ComboBtn Style="{StaticResource xComboBtn}" ItemsSource="{Binding SelectedStopBits}" Text="{Binding LoadcellDataModel_1.StopBits}"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="5" Caption="Hand Shake" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ComboBtn Style="{StaticResource xComboBtn}" ItemsSource="{Binding SelectedHandshake}" Text="{Binding LoadcellDataModel_1.HandShake}"/>
-                    </tc:CaptionValue>
-
-                    <!-- Open / Close Button -->
-                    <Grid Grid.Row="6">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-                        <tc:EventBtn Grid.Column="0" Content="Open" Style="{StaticResource xEventBtn}" Background="Green" CommandParameter="Open_1"/>
-                        <tc:EventBtn Grid.Column="1" Content="Close" Style="{StaticResource xEventBtn}" Background="Red" CommandParameter="Close_1"/>
-                    </Grid>
-                </Grid>
-            </tc:GroupBox3D>
-        </Grid>
+        <ContentControl Grid.Column="0" Grid.Row="0" ContentTemplate="{StaticResource xConnector}" Content="{Binding LoadcellModel_1}"/>
 
         <!-- LoadCell #2 Connector -->
-        <Grid Grid.Column="0" Grid.Row="1">
-            <tc:GroupBox3D Grid.Column="1" Grid.Row="1" Header="LOADCELL #2">
-                <!-- Parameter 설정 영역 영역 -->
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                        <RowDefinition Height="1*"/>
-                        <!-- Open / Close Button 영역 -->
-                        <RowDefinition Height="50"/>
-                    </Grid.RowDefinitions>
-                    <!-- 아래의 CaptionValue Height 조정 -->
-                    <tc:CaptionValue Grid.Row="0" Caption="COM Port" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ComboBtn Style="{StaticResource xComboBtn}"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="1" Caption="Baud Rate" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding LoadcellDataModel_2.Baudrate}" ContentStringFormat="{}"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="2" Caption="Parity" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ComboBtn Style="{StaticResource xComboBtn}"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="3" Caption="Data Bits" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ValueBtn Style="{StaticResource xValueBtn}" Content="{Binding LoadcellDataModel_2.DataBits}" ContentStringFormat="{}"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="4" Caption="Stop Bits" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ComboBtn Style="{StaticResource xComboBtn}"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="5" Caption="Hand Shake" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:ComboBtn Style="{StaticResource xComboBtn}"/>
-                    </tc:CaptionValue>
-
-                    <!-- Open / Close Button -->
-                    <Grid Grid.Row="6">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-                        <tc:EventBtn Grid.Column="0" Content="Open" Style="{StaticResource xEventBtn}" Background="Green" CommandParameter="Open_2"/>
-                        <tc:EventBtn Grid.Column="1" Content="Close" Style="{StaticResource xEventBtn}" Background="Red" CommandParameter="Close_2"/>
-                    </Grid>
-                </Grid>
-            </tc:GroupBox3D>
-        </Grid>
+        <ContentControl Grid.Column="0" Grid.Row="1" ContentTemplate="{StaticResource xConnector}" Content="{Binding LoadcellModel_2}"/>
 
         <!-- Loadcell #1 Processed Data 영역 -->
-        <Grid Grid.Column="1" Grid.Row="0">
-            <tc:GroupBox3D Grid.Column="1" Grid.Row="1" Header="LOADCELL #1 STATUS">
-                <!-- Parameter 출력 영역 영역 -->
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="50"/>
-                        <RowDefinition Height="50"/>
-                        <!-- 공백 영역 -->
-                        <RowDefinition Height="1*"/>
-                    </Grid.RowDefinitions>
-                    
-                    <!-- 데이터 -->
-                    <tc:CaptionValue Grid.Row="0" Caption="Communication" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:OnOffBtn On="Connected" Off="Disconnected" IsHitTestVisible="False"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="1" Caption="Weight (g)" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:TextBlock3D Style="{StaticResource xTextState}" Text="{Binding Weight1, StringFormat={}{0:f3} g}"/>
-                    </tc:CaptionValue>
-                </Grid>
-            </tc:GroupBox3D>
-        </Grid>
+        <ContentControl Grid.Column="1" Grid.Row="0" ContentTemplate="{StaticResource xStatus}" Content="{Binding LoadcellModel_1}"/>
 
         <!-- Loadcell #2 Processed Data 영역 -->
-        <Grid Grid.Column="2" Grid.Row="0">
-            <tc:GroupBox3D Grid.Column="1" Grid.Row="1" Header="LOADCELL #2 STATUS">
-                <!-- Parameter 출력 영역 영역 -->
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="50"/>
-                        <RowDefinition Height="50"/>
-                        <!-- 공백 영역 -->
-                        <RowDefinition Height="1*"/>
-                    </Grid.RowDefinitions>
-
-                    <!-- 데이터 -->
-                    <tc:CaptionValue Grid.Row="0" Caption="Communication" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:OnOffBtn On="Connected" Off="Disconnected" IsHitTestVisible="False"/>
-                    </tc:CaptionValue>
-                    <tc:CaptionValue Grid.Row="1" Caption="Weight (g)" SizeCaption="150" Grid.ColumnSpan="2" >
-                        <tc:TextBlock3D Style="{StaticResource xTextState}" Text="{Binding Weight2, StringFormat={}{0:f3} g}"/>
-                    </tc:CaptionValue>
-                </Grid>
-            </tc:GroupBox3D>
-        </Grid>
-
-        <!-- Loadcell #1 Raw Data 영역 -->
-        <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="2">
-            <tc:GroupBox3D Grid.Column="1" Grid.Row="1" Header="LOADCELL #1 RAW DATA">
-                <!-- Parameter 출력 영역 영역 -->
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="1*"/>
-                        <!-- Button 영역 -->
-                        <RowDefinition Height="50"/>
-                    </Grid.RowDefinitions>
-
-                    <!-- 데이터 -->
-                    <tc:TextBlock3D Grid.Row="0" Background="Black">
-                    </tc:TextBlock3D>
-
-                    <!-- Save / Clear Button -->
-                    <Grid Grid.Row="1">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-                        <tc:EventBtn Grid.Column="0" Content="Save" Style="{StaticResource xEventBtn}"/>
-                        <tc:EventBtn Grid.Column="1" Content="Clear" Style="{StaticResource xEventBtn}"/>
-                    </Grid>
-
-                </Grid>
-            </tc:GroupBox3D>
-        </Grid>
-
-        <!-- Loadcell #2 Raw Data 영역 -->
-        <Grid Grid.Column="2" Grid.Row="1" Grid.RowSpan="2">
-            <tc:GroupBox3D Grid.Column="1" Grid.Row="1" Header="LOADCELL #2 RAW DATA">
-                <!-- Parameter 출력 영역 영역 -->
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="1*"/>
-                        <!-- Button 영역 -->
-                        <RowDefinition Height="50"/>
-                    </Grid.RowDefinitions>
-
-                    <!-- 데이터 -->
-                    <tc:TextBlock3D Grid.Row="0" Background="Black">
-                    </tc:TextBlock3D>
-
-                    <!-- Save / Clear Button -->
-                    <Grid Grid.Row="1">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-                        <tc:EventBtn Grid.Column="0" Content="Save" Style="{StaticResource xEventBtn}"/>
-                        <tc:EventBtn Grid.Column="1" Content="Clear" Style="{StaticResource xEventBtn}"/>
-                    </Grid>
-
-                </Grid>
-            </tc:GroupBox3D>
-        </Grid>
+        <ContentControl Grid.Column="1" Grid.Row="1" ContentTemplate="{StaticResource xStatus}" Content="{Binding LoadcellModel_2}"/>
     </Grid>
 
 </UserControl>

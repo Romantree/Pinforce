@@ -32,8 +32,9 @@ namespace WILL.WT.PINFORCE.ViewModels.Pages.Config
         public LimitDataModel LimitDataModel { get; set; } = new LimitDataModel();
 
         public LoadcellDataModel LoadcellDataModel { get; set; } = new LoadcellDataModel();
+        public LogDataModel LogDataModel { get; set; } = new LogDataModel();
 
-        public AutoContectRcpModel AutoContect { get => this.GetValue<AutoContectRcpModel>(); set => this.SetValue(value); }
+        public AutoContactRcpModel AutoContact { get => this.GetValue<AutoContactRcpModel>(); set => this.SetValue(value); }
 
         public override void Show()
         {
@@ -58,23 +59,25 @@ namespace WILL.WT.PINFORCE.ViewModels.Pages.Config
                 if (isSave)
                 {
                     // DB 저장
-                    DB.DataCopyEx(this.MotionDataModel, DB.WorkParam.moveSpeed);
+                    DB.DataCopyEx(this.MotionDataModel, DB.WorkParam.motion);
                     DB.DataCopyEx(this.TimeoutDataModel, DB.WorkParam.errorTimeout);
                     DB.DataCopyEx(this.DelayDataModel, DB.WorkParam.delay);
                     DB.DataCopyEx(this.LimitDataModel, DB.WorkParam.limit);
                     DB.DataCopyEx(this.LoadcellDataModel, DB.WorkParam.loadcellRange);
+                    DB.DataCopyEx(this.LogDataModel, DB.WorkParam.logData);
 
-                    AP.Rcp.Save(AutoContect);
+                    AP.Rcp.Save(AutoContact);
                 }
 
                 // DB 불러오기
-                DB.DataCopy(this.MotionDataModel, DB.WorkParam.moveSpeed);
+                DB.DataCopy(this.MotionDataModel, DB.WorkParam.motion);
                 DB.DataCopy(this.TimeoutDataModel, DB.WorkParam.errorTimeout);
                 DB.DataCopy(this.DelayDataModel, DB.WorkParam.delay);
                 DB.DataCopy(this.LimitDataModel, DB.WorkParam.limit);
                 DB.DataCopy(this.LoadcellDataModel, DB.WorkParam.loadcellRange);
+                DB.DataCopy(this.LogDataModel, DB.WorkParam.logData);
 
-                AutoContect = AP.Rcp.AutoContect;
+                AutoContact = AP.Rcp.AutoContact;
             }
             catch (Exception ex)
             {
@@ -91,16 +94,13 @@ namespace WILL.WT.PINFORCE.ViewModels.Pages.Config
                     case "Save":
                         {
                             if (AP.System.InterlockCheckEvent("설정 저장 하시겠습니까?") == false) return;
-
                             this.Refresh(true);
-
                             AP.System.InterlockMsgEvent("User 데이터 저장 되었습니다.");
                         }
                         break;
                     case "Refresh":
                         {
                             AP.System.InterlockCheckEvent("데이터를 Refresh 하시겠습니까?");
-
                             this.Refresh();
                         }
                         break;
